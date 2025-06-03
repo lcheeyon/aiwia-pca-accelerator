@@ -47,11 +47,12 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-aiwia-blue to-aiwia-green rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">AI</span>
-            </div>
-            <span className="text-2xl font-bold text-aiwia-black">AIWIA</span>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/8c862949-ea8c-434b-abb1-8edc26aa2707.png"
+              alt="AIWIA Consultancy Logo"
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -66,11 +67,12 @@ const Navigation = () => {
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
               <div className="flex flex-col space-y-4 mt-8">
-                <div className="flex items-center space-x-3 mb-8">
-                  <div className="w-10 h-10 bg-gradient-to-br from-aiwia-blue to-aiwia-green rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold text-lg">AI</span>
-                  </div>
-                  <span className="text-2xl font-bold text-aiwia-black">AIWIA</span>
+                <div className="flex items-center mb-8">
+                  <img 
+                    src="/lovable-uploads/8c862949-ea8c-434b-abb1-8edc26aa2707.png"
+                    alt="AIWIA Consultancy Logo"
+                    className="h-12 w-auto"
+                  />
                 </div>
                 <NavLinks 
                   className="flex flex-col space-y-2" 

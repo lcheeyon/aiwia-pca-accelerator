@@ -8,11 +8,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-aiwia-blue to-aiwia-green rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">AI</span>
-              </div>
-              <span className="text-2xl font-bold">AIWIA</span>
+            <div className="flex items-center mb-4">
+              <img 
+                src="/lovable-uploads/8c862949-ea8c-434b-abb1-8edc26aa2707.png"
+                alt="AIWIA Consultancy Logo"
+                className="h-12 w-auto"
+              />
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
               Accelerate Responsible Artificial Intelligence Adoption with embedded data Privacy, 
