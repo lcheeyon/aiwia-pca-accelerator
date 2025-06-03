@@ -1,0 +1,127 @@
+
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+
+const News = () => {
+  const newsArticles = [
+    {
+      title: "AIWIA Launches Comprehensive AI Adoption Framework",
+      excerpt: "New PCA framework integrates Privacy, Cybersecurity, and Agile methodologies for responsible AI implementation",
+      date: "December 15, 2024",
+      category: "Company News",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "ISO 42001 AI Management System: A Game Changer for Organizations",
+      excerpt: "Understanding the new international standard for AI management systems and its impact on business operations",
+      date: "December 10, 2024", 
+      category: "Industry Insights",
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Data Protection Trustmark: Singapore's Approach to Privacy Compliance",
+      excerpt: "How Singapore's Data Protection Trustmark certification helps businesses build customer trust",
+      date: "December 5, 2024",
+      category: "Compliance",
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "The Future of RAG Technologies in Customer Service",
+      excerpt: "Exploring how Retrieval-Augmented Generation is revolutionizing customer support systems",
+      date: "November 28, 2024",
+      category: "Technology",
+      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Agile Transformation: Beyond Software Development",
+      excerpt: "How agile methodologies are being adopted across all business functions for enhanced productivity",
+      date: "November 20, 2024",
+      category: "Agile",
+      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      title: "Cybersecurity in the Age of AI: New Challenges and Solutions",
+      excerpt: "Addressing the evolving cybersecurity landscape as organizations adopt AI technologies",
+      date: "November 15, 2024",
+      category: "Cybersecurity",
+      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    }
+  ];
+
+  const categories = ["All", "Company News", "Industry Insights", "Compliance", "Technology", "Agile", "Cybersecurity"];
+
+  return (
+    <div className="min-h-screen">
+      <Navigation />
+      
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-aiwia-black to-aiwia-gray-dark text-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">News & Insights</h1>
+            <p className="text-xl max-w-3xl mx-auto">
+              Stay updated with the latest developments in AI adoption, cybersecurity, 
+              and digital transformation
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* News Grid */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Category Filter */}
+          <div className="flex flex-wrap justify-center gap-4 mb-12">
+            {categories.map((category) => (
+              <button
+                key={category}
+                className="px-4 py-2 rounded-full border border-aiwia-blue text-aiwia-blue hover:bg-aiwia-blue hover:text-white transition-colors"
+              >
+                {category}
+              </button>
+            ))}
+          </div>
+
+          {/* Articles Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {newsArticles.map((article, index) => (
+              <Card key={index} className="hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                <div className="aspect-video overflow-hidden">
+                  <img 
+                    src={article.image}
+                    alt={article.title}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <CardHeader>
+                  <div className="flex items-center justify-between text-sm text-aiwia-gray-dark mb-2">
+                    <span className="bg-aiwia-blue text-white px-2 py-1 rounded text-xs">
+                      {article.category}
+                    </span>
+                    <span>{article.date}</span>
+                  </div>
+                  <CardTitle className="text-lg leading-tight hover:text-aiwia-blue transition-colors cursor-pointer">
+                    {article.title}
+                  </CardTitle>
+                  <CardDescription className="line-clamp-3">
+                    {article.excerpt}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <button className="text-aiwia-blue hover:text-aiwia-blue-dark font-semibold">
+                    Read More →
+                  </button>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default News;
