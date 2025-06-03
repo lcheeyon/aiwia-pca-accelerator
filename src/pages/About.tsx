@@ -66,7 +66,7 @@ const About = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
                   <div className="lg:col-span-1">
                     <img 
-                      src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                      src="/lovable-uploads/6e6eaa1d-8eb1-4492-8d82-cfe1a1c39817.png"
                       alt="Chee Yong Lee"
                       className="w-full rounded-lg shadow-md"
                     />
