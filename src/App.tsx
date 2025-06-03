@@ -10,6 +10,7 @@ import About from "./pages/About";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import DataProtectionTrustmark from "./pages/services/DataProtectionTrustmark";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/news" element={<News />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/services/data-protection-trustmark" element={<DataProtectionTrustmark />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
