@@ -20,7 +20,7 @@ const Footer = () => {
               Cybersecurity and Agile (PCA) process management framework.
             </p>
             <p className="text-gray-400 text-sm">
-              © 2024 AIWIA Consultancy. All rights reserved.
+              © 2025 AIWIA Consultancy. All rights reserved.
             </p>
           </div>
 
