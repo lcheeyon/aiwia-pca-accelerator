@@ -14,6 +14,15 @@ import DataProtectionTrustmark from "./pages/services/DataProtectionTrustmark";
 import DigitalTransformation from "./pages/services/DigitalTransformation";
 import AIAdoption from "./pages/services/AIAdoption";
 import Compliance from "./pages/services/Compliance";
+import AITechnologyTraining from "./pages/services/AITechnologyTraining";
+import PrivacySecurityTraining from "./pages/services/PrivacySecurityTraining";
+import AgileAdoptionTraining from "./pages/services/AgileAdoptionTraining";
+import CustomerServiceAI from "./pages/services/CustomerServiceAI";
+import FraudDetection from "./pages/services/FraudDetection";
+import AutomatedReporting from "./pages/services/AutomatedReporting";
+import HROptimization from "./pages/services/HROptimization";
+import ISO27001 from "./pages/services/ISO27001";
+import ISO42001 from "./pages/services/ISO42001";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +42,15 @@ const App = () => (
           <Route path="/services/digital-transformation" element={<DigitalTransformation />} />
           <Route path="/services/ai-adoption" element={<AIAdoption />} />
           <Route path="/services/compliance" element={<Compliance />} />
+          <Route path="/services/ai-technology-training" element={<AITechnologyTraining />} />
+          <Route path="/services/privacy-security-training" element={<PrivacySecurityTraining />} />
+          <Route path="/services/agile-adoption-training" element={<AgileAdoptionTraining />} />
+          <Route path="/services/customer-service-ai" element={<CustomerServiceAI />} />
+          <Route path="/services/fraud-detection" element={<FraudDetection />} />
+          <Route path="/services/automated-reporting" element={<AutomatedReporting />} />
+          <Route path="/services/hr-optimization" element={<HROptimization />} />
+          <Route path="/services/iso-27001" element={<ISO27001 />} />
+          <Route path="/services/iso-42001" element={<ISO42001 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
