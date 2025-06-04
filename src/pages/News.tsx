@@ -1,10 +1,13 @@
 
+import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
 
 const News = () => {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
   const newsArticles = [
     {
       id: "aiwia-pca-framework",
@@ -58,6 +61,10 @@ const News = () => {
 
   const categories = ["All", "Company News", "Industry Insights", "Compliance", "Technology", "Agile", "Cybersecurity"];
 
+  const filteredArticles = selectedCategory === "All" 
+    ? newsArticles 
+    : newsArticles.filter(article => article.category === selectedCategory);
+
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -83,7 +90,12 @@ const News = () => {
             {categories.map((category) => (
               <button
                 key={category}
-                className="px-4 py-2 rounded-full border border-aiwia-blue text-aiwia-blue hover:bg-aiwia-blue hover:text-white transition-colors"
+                onClick={() => setSelectedCategory(category)}
+                className={`px-4 py-2 rounded-full border transition-colors ${
+                  selectedCategory === category
+                    ? 'bg-aiwia-blue text-white border-aiwia-blue'
+                    : 'border-aiwia-blue text-aiwia-blue hover:bg-aiwia-blue hover:text-white'
+                }`}
               >
                 {category}
               </button>
@@ -92,7 +104,7 @@ const News = () => {
 
           {/* Articles Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {newsArticles.map((article, index) => (
+            {filteredArticles.map((article, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow duration-300 overflow-hidden">
                 <div className="aspect-video overflow-hidden">
                   <img 
@@ -126,6 +138,13 @@ const News = () => {
               </Card>
             ))}
           </div>
+
+          {/* Show message when no articles found */}
+          {filteredArticles.length === 0 && (
+            <div className="text-center py-12">
+              <p className="text-gray-500 text-lg">No articles found for the selected category.</p>
+            </div>
+          )}
         </div>
       </section>
 
