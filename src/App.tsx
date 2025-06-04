@@ -23,6 +23,12 @@ import AutomatedReporting from "./pages/services/AutomatedReporting";
 import HROptimization from "./pages/services/HROptimization";
 import ISO27001 from "./pages/services/ISO27001";
 import ISO42001 from "./pages/services/ISO42001";
+import AIWIAPCAFramework from "./pages/news/AIWIAPCAFramework";
+import ISO42001GameChanger from "./pages/news/ISO42001GameChanger";
+import SingaporeDataProtectionTrustmark from "./pages/news/SingaporeDataProtectionTrustmark";
+import FutureRAGTechnologies from "./pages/news/FutureRAGTechnologies";
+import AgileTransformationBeyondSoftware from "./pages/news/AgileTransformationBeyondSoftware";
+import CybersecurityAIAge from "./pages/news/CybersecurityAIAge";
 
 const queryClient = new QueryClient();
 
@@ -51,6 +57,12 @@ const App = () => (
           <Route path="/services/hr-optimization" element={<HROptimization />} />
           <Route path="/services/iso-27001" element={<ISO27001 />} />
           <Route path="/services/iso-42001" element={<ISO42001 />} />
+          <Route path="/news/aiwia-pca-framework" element={<AIWIAPCAFramework />} />
+          <Route path="/news/iso-42001-game-changer" element={<ISO42001GameChanger />} />
+          <Route path="/news/singapore-data-protection-trustmark" element={<SingaporeDataProtectionTrustmark />} />
+          <Route path="/news/future-rag-technologies" element={<FutureRAGTechnologies />} />
+          <Route path="/news/agile-transformation-beyond-software" element={<AgileTransformationBeyondSoftware />} />
+          <Route path="/news/cybersecurity-ai-age" element={<CybersecurityAIAge />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

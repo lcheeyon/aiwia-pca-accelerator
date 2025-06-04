@@ -2,10 +2,12 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Link } from 'react-router-dom';
 
 const News = () => {
   const newsArticles = [
     {
+      id: "aiwia-pca-framework",
       title: "AIWIA Launches Comprehensive AI Adoption Framework",
       excerpt: "New PCA framework integrates Privacy, Cybersecurity, and Agile methodologies for responsible AI implementation",
       date: "December 15, 2024",
@@ -13,6 +15,7 @@ const News = () => {
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
+      id: "iso-42001-game-changer",
       title: "ISO 42001 AI Management System: A Game Changer for Organizations",
       excerpt: "Understanding the new international standard for AI management systems and its impact on business operations",
       date: "December 10, 2024", 
@@ -20,6 +23,7 @@ const News = () => {
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
+      id: "singapore-data-protection-trustmark",
       title: "Data Protection Trustmark: Singapore's Approach to Privacy Compliance",
       excerpt: "How Singapore's Data Protection Trustmark certification helps businesses build customer trust",
       date: "December 5, 2024",
@@ -27,6 +31,7 @@ const News = () => {
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
+      id: "future-rag-technologies",
       title: "The Future of RAG Technologies in Customer Service",
       excerpt: "Exploring how Retrieval-Augmented Generation is revolutionizing customer support systems",
       date: "November 28, 2024",
@@ -34,6 +39,7 @@ const News = () => {
       image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
+      id: "agile-transformation-beyond-software",
       title: "Agile Transformation: Beyond Software Development",
       excerpt: "How agile methodologies are being adopted across all business functions for enhanced productivity",
       date: "November 20, 2024",
@@ -41,6 +47,7 @@ const News = () => {
       image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
     },
     {
+      id: "cybersecurity-ai-age",
       title: "Cybersecurity in the Age of AI: New Challenges and Solutions",
       excerpt: "Addressing the evolving cybersecurity landscape as organizations adopt AI technologies",
       date: "November 15, 2024",
@@ -109,9 +116,12 @@ const News = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <button className="text-aiwia-blue hover:text-aiwia-blue-dark font-semibold">
+                  <Link 
+                    to={`/news/${article.id}`}
+                    className="text-aiwia-blue hover:text-aiwia-blue-dark font-semibold"
+                  >
                     Read More →
-                  </button>
+                  </Link>
                 </CardContent>
               </Card>
             ))}
