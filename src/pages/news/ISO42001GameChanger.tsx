@@ -24,8 +24,8 @@ const ISO42001GameChanger = () => {
               <span className="bg-aiwia-blue text-white px-3 py-1 rounded text-sm">Industry Insights</span>
               <span className="text-aiwia-gray-dark">December 10, 2024</span>
             </div>
-            <h1 className="text-4xl font-bold mb-4">ISO 42001 AI Management System: A Game Changer for Organizations</h1>
-            <p className="text-xl text-aiwia-gray-dark">
+            <h1 className="text-4xl font-bold mb-4 text-aiwia-black">ISO 42001 AI Management System: A Game Changer for Organizations</h1>
+            <p className="text-xl text-aiwia-gray-dark leading-relaxed">
               Understanding the new international standard for AI management systems and its impact on business operations
             </p>
           </header>
@@ -37,44 +37,44 @@ const ISO42001GameChanger = () => {
           />
 
           <div className="prose prose-lg max-w-none">
-            <p>
+            <p className="text-lg leading-relaxed mb-6 text-gray-700">
               The introduction of ISO 42001, the world's first international standard for AI management systems, 
               marks a pivotal moment in the evolution of artificial intelligence governance. This groundbreaking 
               standard provides organizations with a structured framework for responsible AI development and deployment.
             </p>
 
-            <h2>What is ISO 42001?</h2>
-            <p>
+            <h2 className="text-3xl font-bold mb-4 mt-8 text-aiwia-black border-b-2 border-aiwia-blue pb-2">What is ISO 42001?</h2>
+            <p className="text-lg leading-relaxed mb-6 text-gray-700">
               ISO 42001 establishes requirements for an AI management system (AIMS) that enables organizations to 
               develop, provide, and use AI systems responsibly. The standard focuses on managing AI-specific risks 
               and opportunities while ensuring ethical considerations are embedded throughout the AI lifecycle.
             </p>
 
-            <h2>Key Components of ISO 42001</h2>
+            <h2 className="text-3xl font-bold mb-4 mt-8 text-aiwia-black border-b-2 border-aiwia-blue pb-2">Key Components of ISO 42001</h2>
             
-            <h3>Governance Structure</h3>
-            <p>
+            <h3 className="text-2xl font-semibold mb-3 mt-6 text-aiwia-blue">Governance Structure</h3>
+            <p className="text-lg leading-relaxed mb-6 text-gray-700">
               The standard requires organizations to establish clear governance structures with defined roles and 
               responsibilities for AI oversight. This includes appointing AI governance committees and ensuring 
               senior management commitment to responsible AI practices.
             </p>
 
-            <h3>Risk Management</h3>
-            <p>
+            <h3 className="text-2xl font-semibold mb-3 mt-6 text-aiwia-blue">Risk Management</h3>
+            <p className="text-lg leading-relaxed mb-6 text-gray-700">
               ISO 42001 emphasizes comprehensive risk assessment and management processes specifically tailored 
               to AI systems. This includes identifying potential biases, ensuring algorithmic transparency, and 
               implementing safeguards against unintended consequences.
             </p>
 
-            <h3>Impact Assessment</h3>
-            <p>
+            <h3 className="text-2xl font-semibold mb-3 mt-6 text-aiwia-blue">Impact Assessment</h3>
+            <p className="text-lg leading-relaxed mb-6 text-gray-700">
               Organizations must conduct thorough impact assessments for AI systems, considering ethical, social, 
               and environmental implications. This ensures that AI deployment aligns with organizational values 
               and societal expectations.
             </p>
 
-            <h2>Business Benefits</h2>
-            <ul>
+            <h2 className="text-3xl font-bold mb-4 mt-8 text-aiwia-black border-b-2 border-aiwia-blue pb-2">Business Benefits</h2>
+            <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700 mb-6">
               <li>Enhanced stakeholder trust and confidence</li>
               <li>Reduced regulatory and reputational risks</li>
               <li>Improved AI system reliability and performance</li>
@@ -82,21 +82,21 @@ const ISO42001GameChanger = () => {
               <li>Competitive advantage in responsible AI adoption</li>
             </ul>
 
-            <h2>Implementation Challenges</h2>
-            <p>
+            <h2 className="text-3xl font-bold mb-4 mt-8 text-aiwia-black border-b-2 border-aiwia-blue pb-2">Implementation Challenges</h2>
+            <p className="text-lg leading-relaxed mb-6 text-gray-700">
               While ISO 42001 offers significant benefits, implementation requires careful planning and commitment. 
               Organizations must invest in training, process development, and ongoing monitoring to achieve compliance. 
               The standard's requirements may also necessitate changes to existing organizational structures and workflows.
             </p>
 
-            <h2>Industry Adoption</h2>
-            <p>
+            <h2 className="text-3xl font-bold mb-4 mt-8 text-aiwia-black border-b-2 border-aiwia-blue pb-2">Industry Adoption</h2>
+            <p className="text-lg leading-relaxed mb-6 text-gray-700">
               Early adopters across various industries are already seeing positive results from ISO 42001 implementation. 
               Financial services, healthcare, and technology companies are leading the way in demonstrating how this 
               standard can enhance AI governance while driving innovation.
             </p>
 
-            <p>
+            <p className="text-lg leading-relaxed mb-6 text-gray-700">
               As AI continues to transform business operations, ISO 42001 provides the foundation for sustainable 
               and responsible AI adoption that benefits organizations, stakeholders, and society as a whole.
             </p>
