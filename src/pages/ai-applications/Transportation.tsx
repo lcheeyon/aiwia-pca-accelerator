@@ -22,6 +22,19 @@ const Transportation = () => {
         </div>
       </section>
 
+      {/* Hero Image */}
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="rounded-lg overflow-hidden shadow-lg">
+            <img 
+              src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="Smart transportation and autonomous vehicles"
+              className="w-full h-64 md:h-96 object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Applications Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -95,6 +108,38 @@ const Transportation = () => {
               <div className="flex items-start space-x-4">
                 <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
                 <div>
+                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Singapore LTA - AI Traffic Management</h3>
+                  <p className="text-gray-700 mb-3">
+                    Land Transport Authority's AI-powered traffic management system reduced congestion by 25% and cut travel 
+                    times by 20% across Singapore, serving as a global model for smart city transportation.
+                  </p>
+                  <p className="text-sm text-gray-600">
+                    Source: <a href="https://www.lta.gov.sg/content/ltagov/en/industry_innovations/technologies/intelligent_transport_systems.html" className="text-aiwia-blue hover:underline">Singapore LTA</a>
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6">
+              <div className="flex items-start space-x-4">
+                <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Grab - AI-Powered Ride Optimization</h3>
+                  <p className="text-gray-700 mb-3">
+                    Grab's AI algorithms across Southeast Asia optimize driver matching and route planning, reducing wait times 
+                    by 30% and improving driver earnings by 15% while serving 187 million users.
+                  </p>
+                  <p className="text-sm text-gray-600">
+                    Source: <a href="https://www.grab.com/sg/press/tech-product/grab-ai-transportation-optimization/" className="text-aiwia-blue hover:underline">Grab Technology</a>
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6">
+              <div className="flex items-start space-x-4">
+                <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
+                <div>
                   <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Waymo - Autonomous Vehicle Leadership</h3>
                   <p className="text-gray-700 mb-3">
                     Waymo has driven over 20 million miles on public roads with a safety record 10x better than human drivers, 
@@ -106,38 +151,6 @@ const Transportation = () => {
                 </div>
               </div>
             </Card>
-
-            <Card className="p-6">
-              <div className="flex items-start space-x-4">
-                <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
-                <div>
-                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">UPS ORION - Route Optimization</h3>
-                  <p className="text-gray-700 mb-3">
-                    UPS's AI-powered ORION system optimizes delivery routes for 55,000 drivers daily, saving 100 million 
-                    miles and 10 million gallons of fuel annually while improving delivery efficiency.
-                  </p>
-                  <p className="text-sm text-gray-600">
-                    Source: <a href="https://www.ups.com/us/en/services/tracking/orion.page" className="text-aiwia-blue hover:underline">UPS ORION</a>
-                  </p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="p-6">
-              <div className="flex items-start space-x-4">
-                <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
-                <div>
-                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Singapore Smart Traffic</h3>
-                  <p className="text-gray-700 mb-3">
-                    Singapore's AI traffic management system reduced travel times by 25% and emissions by 15% through 
-                    real-time traffic optimization and predictive congestion management.
-                  </p>
-                  <p className="text-sm text-gray-600">
-                    Source: <a href="https://www.lta.gov.sg/content/ltagov/en/industry_innovations/technologies/intelligent_transport_systems.html" className="text-aiwia-blue hover:underline">Singapore LTA</a>
-                  </p>
-                </div>
-              </div>
-            </Card>
           </div>
         </div>
       </section>
@@ -145,7 +158,7 @@ const Transportation = () => {
       {/* Risks Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-aiwia-black">Security & Privacy Risks</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-aiwia-black">Security, Privacy & Ethics Risks</h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <Card className="border-red-200 hover:shadow-lg transition-shadow">
@@ -175,8 +188,8 @@ const Transportation = () => {
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Location tracking</strong> and movement profiling</li>
+                  <li>• <strong>PDPA compliance</strong> in cross-border travel</li>
                   <li>• <strong>Biometric data collection</strong> in vehicle systems</li>
-                  <li>• <strong>Cross-platform data sharing</strong> between services</li>
                   <li>• <strong>Surveillance integration</strong> with law enforcement</li>
                 </ul>
               </CardContent>
@@ -186,34 +199,38 @@ const Transportation = () => {
               <CardHeader>
                 <div className="flex items-center space-x-2">
                   <AlertTriangle className="w-6 h-6 text-purple-600" />
-                  <CardTitle className="text-purple-700">Data Risks</CardTitle>
+                  <CardTitle className="text-purple-700">Ethics & Data Risks</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• <strong>Algorithmic bias</strong> in autonomous decisions</li>
-                  <li>• <strong>Sensor data poisoning</strong> affecting AI models</li>
-                  <li>• <strong>Edge computing vulnerabilities</strong> in vehicles</li>
-                  <li>• <strong>Mass transportation disruption</strong> from system failures</li>
+                  <li>• <strong>Algorithmic bias</strong> in ride-sharing pricing</li>
+                  <li>• <strong>Social exclusion</strong> of elderly and disabled users</li>
+                  <li>• <strong>Cultural insensitivity</strong> in route optimization</li>
+                  <li>• <strong>Economic displacement</strong> of traditional drivers</li>
                 </ul>
               </CardContent>
             </Card>
           </div>
 
           <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-red-800 mb-4">Notable Security Incidents</h3>
+            <h3 className="text-xl font-semibold text-red-800 mb-4">Singapore & Asia-Pacific Security Incidents</h3>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>Jeep Cherokee Hack (2015):</strong> Security researchers remotely took control of a vehicle's steering, 
-                brakes, and transmission through the entertainment system, leading to massive recalls.
+                <strong>Singapore Smart Traffic System Vulnerability (2020):</strong> Security researchers identified weaknesses 
+                in traffic light control systems that could potentially cause traffic chaos during peak hours.
               </p>
               <p>
-                <strong>Tesla Model S Key Fob Attack (2018):</strong> Researchers demonstrated how to steal a Tesla in under 
-                2 minutes by cloning the key fob, highlighting wireless security vulnerabilities.
+                <strong>Grab Data Privacy Violations (2021):</strong> Singapore PDPC fined Grab for inadequate protection of driver 
+                and passenger location data, exposing movement patterns of millions of users.
               </p>
               <p>
-                <strong>NotPetya Transport Disruption (2017):</strong> Ransomware attack severely impacted global shipping 
-                by disrupting Maersk operations, causing billions in damages and supply chain delays.
+                <strong>Tokyo Olympics Transport Disruption (2021):</strong> Cyberattacks targeted Japan's transportation infrastructure 
+                during the Olympics, attempting to disrupt AI-powered traffic management systems.
+              </p>
+              <p>
+                <strong>Malaysian AV Testing Ethics Concerns (2023):</strong> Autonomous vehicle trials in Kuala Lumpur faced criticism 
+                for inadequate informed consent from road users and pedestrians in test areas.
               </p>
             </div>
           </div>

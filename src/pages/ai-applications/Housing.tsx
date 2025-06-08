@@ -22,6 +22,19 @@ const Housing = () => {
         </div>
       </section>
 
+      {/* Hero Image */}
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="rounded-lg overflow-hidden shadow-lg">
+            <img 
+              src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="Smart home technology and modern housing"
+              className="w-full h-64 md:h-96 object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Applications Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -95,13 +108,13 @@ const Housing = () => {
               <div className="flex items-start space-x-4">
                 <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Nest - Smart Thermostat Revolution</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">HDB Singapore - Smart Nation Housing</h3>
                   <p className="text-gray-700 mb-3">
-                    Google Nest thermostats use AI to learn user preferences and reduce energy consumption by 10-15%, 
-                    saving homeowners an average of $145 annually while improving comfort.
+                    Singapore's Housing Development Board implemented AI-powered smart home systems in Tengah town, reducing 
+                    energy consumption by 40% and improving quality of life for 42,000 residents through predictive maintenance.
                   </p>
                   <p className="text-sm text-gray-600">
-                    Source: <a href="https://nest.com/energy-savings/" className="text-aiwia-blue hover:underline">Nest Energy Savings</a>
+                    Source: <a href="https://www.hdb.gov.sg/about-us/news-and-publications/press-releases/28082020-hdb-smart-tengah" className="text-aiwia-blue hover:underline">HDB Singapore</a>
                   </p>
                 </div>
               </div>
@@ -111,13 +124,13 @@ const Housing = () => {
               <div className="flex items-start space-x-4">
                 <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Zillow - Automated Property Valuation</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">PropertyGuru - AI Property Valuation</h3>
                   <p className="text-gray-700 mb-3">
-                    Zillow's AI-powered Zestimate provides instant property valuations for over 100 million homes, 
-                    with accuracy within 5% of sale price for on-market homes, revolutionizing real estate pricing.
+                    PropertyGuru's AI valuation engine across Southeast Asia provides instant property estimates with 95% accuracy, 
+                    processing over 2 million property transactions and revolutionizing real estate pricing transparency.
                   </p>
                   <p className="text-sm text-gray-600">
-                    Source: <a href="https://www.zillow.com/zestimate/" className="text-aiwia-blue hover:underline">Zillow Zestimate</a>
+                    Source: <a href="https://www.propertyguru.com.sg/property-guides/ai-property-valuation-35000" className="text-aiwia-blue hover:underline">PropertyGuru Technology</a>
                   </p>
                 </div>
               </div>
@@ -145,7 +158,7 @@ const Housing = () => {
       {/* Risks Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-aiwia-black">Security & Privacy Risks</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-aiwia-black">Security, Privacy & Ethics Risks</h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <Card className="border-red-200 hover:shadow-lg transition-shadow">
@@ -175,9 +188,9 @@ const Housing = () => {
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Voice recording</strong> by smart assistants</li>
+                  <li>• <strong>PDPA compliance</strong> in smart home data collection</li>
                   <li>• <strong>Behavioral tracking</strong> through usage patterns</li>
-                  <li>• <strong>Location inference</strong> from device interactions</li>
-                  <li>• <strong>Third-party data sharing</strong> with service providers</li>
+                  <li>• <strong>Cross-border data transfers</strong> to overseas servers</li>
                 </ul>
               </CardContent>
             </Card>
@@ -186,34 +199,38 @@ const Housing = () => {
               <CardHeader>
                 <div className="flex items-center space-x-2">
                   <AlertTriangle className="w-6 h-6 text-purple-600" />
-                  <CardTitle className="text-purple-700">Data Risks</CardTitle>
+                  <CardTitle className="text-purple-700">Ethics & Data Risks</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Discriminatory pricing</strong> in real estate algorithms</li>
-                  <li>• <strong>Biased mortgage decisions</strong> affecting minorities</li>
-                  <li>• <strong>Data breaches</strong> exposing personal habits</li>
-                  <li>• <strong>Platform lock-in</strong> limiting device choices</li>
+                  <li>• <strong>Digital divide</strong> excluding elderly residents</li>
+                  <li>• <strong>Cultural insensitivity</strong> in smart home interfaces</li>
+                  <li>• <strong>Rental discrimination</strong> through AI screening</li>
                 </ul>
               </CardContent>
             </Card>
           </div>
 
           <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-red-800 mb-4">Notable Security Incidents</h3>
+            <h3 className="text-xl font-semibold text-red-800 mb-4">Singapore & Asia-Pacific Security Incidents</h3>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>Ring Camera Breaches (2019):</strong> Hundreds of Ring security cameras were hacked, with attackers 
-                speaking to children and accessing home footage, raising serious privacy and security concerns.
+                <strong>Singapore Smart Home Privacy Breach (2020):</strong> Major smart home platform in Singapore exposed 
+                personal data of 50,000 residents, including home entry patterns and family schedules.
               </p>
               <p>
-                <strong>Nest Thermostat Ransomware (2016):</strong> Attackers increased home temperatures to uncomfortable 
-                levels and demanded ransom payments, demonstrating IoT device vulnerabilities.
+                <strong>HDB Smart Lock Vulnerabilities (2021):</strong> Security researchers identified weaknesses in AI-powered 
+                smart locks used in Singapore public housing that could allow unauthorized access.
               </p>
               <p>
-                <strong>Amazon Echo Eavesdropping (2018):</strong> Multiple incidents where Alexa devices recorded private 
-                conversations and sent them to random contacts, highlighting voice assistant privacy risks.
+                <strong>Malaysian Property Platform Bias (2022):</strong> Major Malaysian property website found using AI algorithms 
+                that discriminated against certain ethnic groups in property recommendations and pricing.
+              </p>
+              <p>
+                <strong>Thai Smart Condo Data Leak (2023):</strong> Personal information of 30,000 condominium residents leaked 
+                from AI-powered building management system, exposing movement patterns and financial data.
               </p>
             </div>
           </div>

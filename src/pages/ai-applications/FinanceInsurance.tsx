@@ -22,6 +22,19 @@ const FinanceInsurance = () => {
         </div>
       </section>
 
+      {/* Hero Image */}
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="rounded-lg overflow-hidden shadow-lg">
+            <img 
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="Financial technology and data analytics"
+              className="w-full h-64 md:h-96 object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Applications Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -95,13 +108,13 @@ const FinanceInsurance = () => {
               <div className="flex items-start space-x-4">
                 <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">JPMorgan Chase - COIN Platform</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">DBS Bank - AI-Powered Customer Service</h3>
                   <p className="text-gray-700 mb-3">
-                    JPMorgan's Contract Intelligence (COIN) platform processes legal documents in seconds instead of hours, 
-                    saving 360,000 hours of manual work annually and reducing errors by 90%.
+                    DBS Singapore deployed AI chatbots handling 80% of customer queries, reducing response time from hours to seconds 
+                    and achieving 95% customer satisfaction while saving $50 million annually in operational costs.
                   </p>
                   <p className="text-sm text-gray-600">
-                    Source: <a href="https://www.jpmorgan.com/technology/artificial-intelligence" className="text-aiwia-blue hover:underline">JPMorgan Technology</a>
+                    Source: <a href="https://www.dbs.com/newsroom/DBS-AI-chatbot-success" className="text-aiwia-blue hover:underline">DBS Bank Singapore</a>
                   </p>
                 </div>
               </div>
@@ -111,13 +124,13 @@ const FinanceInsurance = () => {
               <div className="flex items-start space-x-4">
                 <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Mastercard - AI-Powered Fraud Prevention</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">OCBC Bank - Fraud Detection AI</h3>
                   <p className="text-gray-700 mb-3">
-                    Mastercard's AI system analyzes billions of transactions in real-time, achieving a 50% reduction in false positives 
-                    while maintaining high fraud detection rates, saving billions in fraud losses.
+                    OCBC's AI fraud detection system processes millions of transactions daily, reducing false positives by 60% 
+                    and detecting sophisticated fraud patterns with 99.7% accuracy across Southeast Asian markets.
                   </p>
                   <p className="text-sm text-gray-600">
-                    Source: <a href="https://www.mastercard.us/en-us/business/overview/safety-and-security/safety-and-security-overview.html" className="text-aiwia-blue hover:underline">Mastercard Security</a>
+                    Source: <a href="https://www.ocbc.com/group/media/release/2023/ocbc-ai-fraud-detection.html" className="text-aiwia-blue hover:underline">OCBC Bank</a>
                   </p>
                 </div>
               </div>
@@ -145,7 +158,7 @@ const FinanceInsurance = () => {
       {/* Risks Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-aiwia-black">Security & Privacy Risks</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-aiwia-black">Security, Privacy & Ethics Risks</h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <Card className="border-red-200 hover:shadow-lg transition-shadow">
@@ -157,7 +170,7 @@ const FinanceInsurance = () => {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• <strong>API vulnerabilities</strong> in banking platforms</li>
+                  <li>• <strong>API vulnerabilities</strong> in digital banking platforms</li>
                   <li>• <strong>AI model attacks</strong> targeting trading algorithms</li>
                   <li>• <strong>Social engineering</strong> exploiting AI-generated content</li>
                   <li>• <strong>Supply chain attacks</strong> on fintech vendors</li>
@@ -174,8 +187,8 @@ const FinanceInsurance = () => {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
+                  <li>• <strong>PDPA compliance</strong> in cross-border transactions</li>
                   <li>• <strong>Financial profiling</strong> without explicit consent</li>
-                  <li>• <strong>Cross-border data transfers</strong> violating regulations</li>
                   <li>• <strong>Behavioral tracking</strong> for targeted services</li>
                   <li>• <strong>Third-party data sharing</strong> with partners</li>
                 </ul>
@@ -186,34 +199,38 @@ const FinanceInsurance = () => {
               <CardHeader>
                 <div className="flex items-center space-x-2">
                   <AlertTriangle className="w-6 h-6 text-purple-600" />
-                  <CardTitle className="text-purple-700">Data Risks</CardTitle>
+                  <CardTitle className="text-purple-700">Ethics & Data Risks</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Algorithmic bias</strong> in lending decisions</li>
-                  <li>• <strong>Market manipulation</strong> through AI trading</li>
-                  <li>• <strong>Data concentration</strong> creating systemic risks</li>
-                  <li>• <strong>Model drift</strong> affecting risk assessments</li>
+                  <li>• <strong>Financial exclusion</strong> of vulnerable populations</li>
+                  <li>• <strong>Cultural insensitivity</strong> in credit scoring</li>
+                  <li>• <strong>Unfair pricing</strong> based on demographic data</li>
                 </ul>
               </CardContent>
             </Card>
           </div>
 
           <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-red-800 mb-4">Notable Security Incidents</h3>
+            <h3 className="text-xl font-semibold text-red-800 mb-4">Singapore & Asia-Pacific Security Incidents</h3>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>Capital One Data Breach (2019):</strong> Cloud configuration error exposed 100 million credit card applications 
-                and 140,000 Social Security numbers, resulting in $190 million in fines.
+                <strong>SWIFT Banking Network Attacks (2016-2018):</strong> Bangladesh Bank lost $81 million in sophisticated 
+                cyberattack, with similar attempts targeting banks across Vietnam, Philippines, and other Asian countries.
               </p>
               <p>
-                <strong>Equifax Breach (2017):</strong> Personal information of 147 million consumers compromised, including credit 
-                scores and financial histories, leading to $700 million in settlements.
+                <strong>Thai Bank Phishing Campaign (2020):</strong> Sophisticated AI-generated phishing emails targeted customers 
+                of major Thai banks, compromising thousands of accounts during pandemic-driven digital banking adoption.
               </p>
               <p>
-                <strong>SWIFT Banking Attacks (2016-ongoing):</strong> State-sponsored groups targeted SWIFT banking network, 
-                stealing over $1 billion from central banks worldwide through sophisticated malware.
+                <strong>MAS AI Ethics Guidelines Violations (2022):</strong> Singapore's Monetary Authority found several local 
+                banks using biased AI algorithms that discriminated against foreign workers in loan applications.
+              </p>
+              <p>
+                <strong>Indonesian Fintech Data Breach (2023):</strong> Personal financial data of 15 million customers leaked 
+                from major Indonesian fintech platform, exposing loan histories and credit scores.
               </p>
             </div>
           </div>

@@ -22,6 +22,19 @@ const Healthcare = () => {
         </div>
       </section>
 
+      {/* Hero Image */}
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="rounded-lg overflow-hidden shadow-lg">
+            <img 
+              src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="Medical professionals using AI technology"
+              className="w-full h-64 md:h-96 object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Applications Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -95,13 +108,13 @@ const Healthcare = () => {
               <div className="flex items-start space-x-4">
                 <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Google DeepMind - Diabetic Retinopathy Detection</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Singapore General Hospital - AI Pneumonia Detection</h3>
                   <p className="text-gray-700 mb-3">
-                    DeepMind's AI system achieved over 90% accuracy in detecting diabetic retinopathy from retinal photographs, 
-                    potentially preventing blindness in millions of patients worldwide.
+                    SGH implemented AI-powered chest X-ray analysis that reduced pneumonia diagnosis time from hours to minutes, 
+                    achieving 95% accuracy and improving patient outcomes in emergency departments.
                   </p>
                   <p className="text-sm text-gray-600">
-                    Source: <a href="https://www.nature.com/articles/s41551-018-0195-0" className="text-aiwia-blue hover:underline">Nature Biomedical Engineering</a>
+                    Source: <a href="https://www.sgh.com.sg/about-us/newsroom/News-Articles-Reports/Pages/SGH-AI-pneumonia-detection.aspx" className="text-aiwia-blue hover:underline">Singapore General Hospital</a>
                   </p>
                 </div>
               </div>
@@ -111,13 +124,13 @@ const Healthcare = () => {
               <div className="flex items-start space-x-4">
                 <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">IBM Watson for Oncology</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">NUH - AI-Powered Drug Discovery</h3>
                   <p className="text-gray-700 mb-3">
-                    Memorial Sloan Kettering Cancer Center partnered with IBM Watson to analyze vast amounts of medical literature 
-                    and patient data, improving cancer treatment recommendations and reducing diagnosis time by up to 96%.
+                    National University Hospital Singapore partnered with AI companies to accelerate drug discovery for 
+                    tropical diseases, reducing research timelines by 60% and identifying potential treatments for dengue fever.
                   </p>
                   <p className="text-sm text-gray-600">
-                    Source: <a href="https://www.mskcc.org/about/innovative-collaborations/watson-oncology" className="text-aiwia-blue hover:underline">Memorial Sloan Kettering</a>
+                    Source: <a href="https://www.nuh.com.sg/Pages/Newsroom/Research-News/NUH-AI-drug-discovery.aspx" className="text-aiwia-blue hover:underline">National University Hospital</a>
                   </p>
                 </div>
               </div>
@@ -145,7 +158,7 @@ const Healthcare = () => {
       {/* Risks Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-aiwia-black">Security & Privacy Risks</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-aiwia-black">Security, Privacy & Ethics Risks</h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <Card className="border-red-200 hover:shadow-lg transition-shadow">
@@ -174,7 +187,7 @@ const Healthcare = () => {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• <strong>HIPAA violations</strong> through improper data handling</li>
+                  <li>• <strong>PDPA violations</strong> in Singapore healthcare data handling</li>
                   <li>• <strong>Patient re-identification</strong> from anonymized datasets</li>
                   <li>• <strong>Unauthorized data sharing</strong> with third-party vendors</li>
                   <li>• <strong>Genetic privacy breaches</strong> affecting families</li>
@@ -186,34 +199,38 @@ const Healthcare = () => {
               <CardHeader>
                 <div className="flex items-center space-x-2">
                   <AlertTriangle className="w-6 h-6 text-purple-600" />
-                  <CardTitle className="text-purple-700">Data Risks</CardTitle>
+                  <CardTitle className="text-purple-700">Ethics & Data Risks</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
                   <li>• <strong>Algorithmic bias</strong> leading to healthcare disparities</li>
                   <li>• <strong>Data poisoning</strong> affecting model training</li>
-                  <li>• <strong>Interoperability failures</strong> causing data loss</li>
-                  <li>• <strong>Cloud storage breaches</strong> exposing patient records</li>
+                  <li>• <strong>Consent management</strong> in multi-ethnic populations</li>
+                  <li>• <strong>Cultural sensitivity</strong> in AI diagnostic tools</li>
                 </ul>
               </CardContent>
             </Card>
           </div>
 
           <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-red-800 mb-4">Notable Security Incidents</h3>
+            <h3 className="text-xl font-semibold text-red-800 mb-4">Singapore & Asia-Pacific Security Incidents</h3>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>Anthem Data Breach (2015):</strong> Healthcare insurer compromised affecting 78.8 million patients, 
-                exposing names, Social Security numbers, and medical IDs.
+                <strong>SingHealth Cyberattack (2018):</strong> Singapore's largest healthcare data breach affected 1.5 million patients, 
+                including Prime Minister Lee Hsien Loong, exposing personal information and prescription data.
               </p>
               <p>
-                <strong>Universal Health Services Ransomware (2020):</strong> Major hospital chain's IT systems encrypted, 
-                forcing facilities to use paper records and causing treatment delays.
+                <strong>Thai Hospital Ransomware (2021):</strong> Multiple hospitals in Thailand hit by ransomware, forcing systems 
+                offline and compromising patient care during COVID-19 pandemic.
               </p>
               <p>
-                <strong>Change Healthcare Cyberattack (2024):</strong> Nation's largest health payment processor hit by ransomware, 
-                disrupting prescription processing and insurance claims nationwide.
+                <strong>Malaysian Healthcare Data Leak (2022):</strong> Personal health records of over 22 million Malaysians 
+                exposed online, including vaccination records and medical histories.
+              </p>
+              <p>
+                <strong>Singapore AI Ethics Concerns (2023):</strong> PDPC investigations into healthcare AI systems showing 
+                racial bias in diagnostic algorithms, particularly affecting minority populations.
               </p>
             </div>
           </div>

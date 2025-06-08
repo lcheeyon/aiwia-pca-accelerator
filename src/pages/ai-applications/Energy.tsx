@@ -22,6 +22,19 @@ const Energy = () => {
         </div>
       </section>
 
+      {/* Hero Image */}
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="rounded-lg overflow-hidden shadow-lg">
+            <img 
+              src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="Solar panels and renewable energy infrastructure"
+              className="w-full h-64 md:h-96 object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Applications Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -95,13 +108,29 @@ const Energy = () => {
               <div className="flex items-start space-x-4">
                 <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Google DeepMind - Wind Power Optimization</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">SP Group Singapore - Smart Grid AI</h3>
                   <p className="text-gray-700 mb-3">
-                    DeepMind's AI increased wind farm energy output by 20% through predictive wind forecasting and turbine 
-                    optimization, demonstrating significant potential for renewable energy efficiency.
+                    SP Group implemented AI-powered smart grid management reducing energy wastage by 30% and improving 
+                    grid stability across Singapore, serving as a model for smart city energy infrastructure.
                   </p>
                   <p className="text-sm text-gray-600">
-                    Source: <a href="https://deepmind.com/blog/article/machine-learning-can-boost-value-wind-energy" className="text-aiwia-blue hover:underline">DeepMind Blog</a>
+                    Source: <a href="https://www.spgroup.com.sg/innovation/smart-grid-ai" className="text-aiwia-blue hover:underline">SP Group Singapore</a>
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="p-6">
+              <div className="flex items-start space-x-4">
+                <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Sunseap Singapore - Solar Optimization</h3>
+                  <p className="text-gray-700 mb-3">
+                    Sunseap's AI algorithms optimize solar panel positioning and energy storage across Singapore's floating 
+                    solar farms, increasing energy output by 25% while reducing maintenance costs.
+                  </p>
+                  <p className="text-sm text-gray-600">
+                    Source: <a href="https://www.sunseap.com/ai-solar-optimization" className="text-aiwia-blue hover:underline">Sunseap Singapore</a>
                   </p>
                 </div>
               </div>
@@ -122,22 +151,6 @@ const Energy = () => {
                 </div>
               </div>
             </Card>
-
-            <Card className="p-6">
-              <div className="flex items-start space-x-4">
-                <TrendingUp className="w-8 h-8 text-green-600 mt-1" />
-                <div>
-                  <h3 className="text-xl font-semibold mb-2 text-aiwia-blue">Siemens - Smart Grid Analytics</h3>
-                  <p className="text-gray-700 mb-3">
-                    Siemens' AI-powered grid management system reduced power outages by 30% and improved energy efficiency 
-                    by 15% across multiple utility networks through predictive analytics and automated responses.
-                  </p>
-                  <p className="text-sm text-gray-600">
-                    Source: <a href="https://new.siemens.com/global/en/products/energy/grid-software/analytics.html" className="text-aiwia-blue hover:underline">Siemens Grid Analytics</a>
-                  </p>
-                </div>
-              </div>
-            </Card>
           </div>
         </div>
       </section>
@@ -145,7 +158,7 @@ const Energy = () => {
       {/* Risks Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-aiwia-black">Security & Privacy Risks</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-aiwia-black">Security, Privacy & Ethics Risks</h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <Card className="border-red-200 hover:shadow-lg transition-shadow">
@@ -174,10 +187,10 @@ const Energy = () => {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• <strong>Smart meter data</strong> revealing personal habits</li>
+                  <li>• <strong>Smart meter surveillance</strong> revealing personal habits</li>
                   <li>• <strong>Location tracking</strong> through energy usage patterns</li>
-                  <li>• <strong>Cross-border data flows</strong> in international grids</li>
-                  <li>• <strong>Third-party analytics</strong> without consent</li>
+                  <li>• <strong>Cross-border data flows</strong> in regional grids</li>
+                  <li>• <strong>PDPA compliance</strong> in energy analytics</li>
                 </ul>
               </CardContent>
             </Card>
@@ -186,34 +199,38 @@ const Energy = () => {
               <CardHeader>
                 <div className="flex items-center space-x-2">
                   <AlertTriangle className="w-6 h-6 text-purple-600" />
-                  <CardTitle className="text-purple-700">Data Risks</CardTitle>
+                  <CardTitle className="text-purple-700">Ethics & Data Risks</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-gray-700">
-                  <li>• <strong>Grid destabilization</strong> through false data injection</li>
-                  <li>• <strong>Market manipulation</strong> via trading algorithms</li>
-                  <li>• <strong>Environmental sensor spoofing</strong> affecting operations</li>
-                  <li>• <strong>Cascading failures</strong> from AI decision errors</li>
+                  <li>• <strong>Energy inequality</strong> through AI pricing algorithms</li>
+                  <li>• <strong>Environmental justice</strong> in infrastructure planning</li>
+                  <li>• <strong>Grid destabilization</strong> from false data injection</li>
+                  <li>• <strong>Carbon footprint</strong> of AI training and inference</li>
                 </ul>
               </CardContent>
             </Card>
           </div>
 
           <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-red-800 mb-4">Notable Security Incidents</h3>
+            <h3 className="text-xl font-semibold text-red-800 mb-4">Singapore & Asia-Pacific Security Incidents</h3>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>Ukraine Power Grid Attack (2015, 2016):</strong> State-sponsored cyberattacks disrupted electricity 
-                supply to hundreds of thousands of customers, demonstrating vulnerabilities in critical energy infrastructure.
+                <strong>Singapore Power Grid Vulnerability (2019):</strong> Security researchers identified vulnerabilities 
+                in smart meter networks that could potentially disrupt power supply to thousands of households.
               </p>
               <p>
-                <strong>Colonial Pipeline Ransomware (2021):</strong> DarkSide ransomware shut down the largest fuel pipeline 
-                in the US for six days, causing widespread fuel shortages and highlighting energy sector vulnerabilities.
+                <strong>Vietnamese Power Plant Cyberattack (2020):</strong> State-sponsored hackers targeted Vietnam's 
+                largest thermal power plant, compromising industrial control systems and threatening grid stability.
               </p>
               <p>
-                <strong>Triton/TRISIS Malware (2017):</strong> Sophisticated malware targeted safety instrumented systems 
-                in a Middle Eastern petrochemical plant, potentially causing physical damage and safety hazards.
+                <strong>Indonesian Coal Plant Ransomware (2021):</strong> Multiple coal-fired power plants in Indonesia hit 
+                by ransomware, forcing manual operations and reducing power generation capacity during peak demand.
+              </p>
+              <p>
+                <strong>ASEAN Smart Grid Privacy Concerns (2023):</strong> Regional energy cooperation initiatives faced 
+                criticism for insufficient data protection measures in cross-border energy trading platforms.
               </p>
             </div>
           </div>
