@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -29,6 +28,12 @@ import SingaporeDataProtectionTrustmark from "./pages/news/SingaporeDataProtecti
 import FutureRAGTechnologies from "./pages/news/FutureRAGTechnologies";
 import AgileTransformationBeyondSoftware from "./pages/news/AgileTransformationBeyondSoftware";
 import CybersecurityAIAge from "./pages/news/CybersecurityAIAge";
+import Healthcare from "./pages/ai-applications/Healthcare";
+import FinanceInsurance from "./pages/ai-applications/FinanceInsurance";
+import Energy from "./pages/ai-applications/Energy";
+import Transportation from "./pages/ai-applications/Transportation";
+import Housing from "./pages/ai-applications/Housing";
+import Defence from "./pages/ai-applications/Defence";
 
 const queryClient = new QueryClient();
 
@@ -63,6 +68,12 @@ const App = () => (
           <Route path="/news/future-rag-technologies" element={<FutureRAGTechnologies />} />
           <Route path="/news/agile-transformation-beyond-software" element={<AgileTransformationBeyondSoftware />} />
           <Route path="/news/cybersecurity-ai-age" element={<CybersecurityAIAge />} />
+          <Route path="/ai-applications/healthcare" element={<Healthcare />} />
+          <Route path="/ai-applications/finance-insurance" element={<FinanceInsurance />} />
+          <Route path="/ai-applications/energy" element={<Energy />} />
+          <Route path="/ai-applications/transportation" element={<Transportation />} />
+          <Route path="/ai-applications/housing" element={<Housing />} />
+          <Route path="/ai-applications/defence" element={<Defence />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
