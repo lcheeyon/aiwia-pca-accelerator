@@ -42,20 +42,61 @@ const Navigation = () => {
 
   const NavLinks = ({ className = "", onClick = () => {} }) => (
     <div className={className}>
-      {navItems.map((item) => (
-        <Link
-          key={item.href}
-          to={item.href}
-          onClick={onClick}
-          className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
-            isActive(item.href)
-              ? 'bg-aiwia-blue text-white'
-              : 'text-aiwia-gray-dark hover:text-white'
-          }`}
-        >
-          {item.label}
-        </Link>
-      ))}
+      <Link
+        to="/"
+        onClick={onClick}
+        className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
+          isActive('/')
+            ? 'bg-aiwia-blue text-white'
+            : 'text-aiwia-gray-dark hover:text-white'
+        }`}
+      >
+        Home
+      </Link>
+      <Link
+        to="/services"
+        onClick={onClick}
+        className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
+          isActive('/services')
+            ? 'bg-aiwia-blue text-white'
+            : 'text-aiwia-gray-dark hover:text-white'
+        }`}
+      >
+        Services
+      </Link>
+      <Link
+        to="/about"
+        onClick={onClick}
+        className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
+          isActive('/about')
+            ? 'bg-aiwia-blue text-white'
+            : 'text-aiwia-gray-dark hover:text-white'
+        }`}
+      >
+        About
+      </Link>
+      <Link
+        to="/news"
+        onClick={onClick}
+        className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
+          isActive('/news')
+            ? 'bg-aiwia-blue text-white'
+            : 'text-aiwia-gray-dark hover:text-white'
+        }`}
+      >
+        News
+      </Link>
+      <Link
+        to="/contact"
+        onClick={onClick}
+        className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
+          isActive('/contact')
+            ? 'bg-aiwia-blue text-white'
+            : 'text-aiwia-gray-dark hover:text-white'
+        }`}
+      >
+        Contact
+      </Link>
     </div>
   );
 
@@ -74,9 +115,28 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-2">
-            <NavLinks className="flex space-x-2" />
+            <Link
+              to="/"
+              className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
+                isActive('/')
+                  ? 'bg-aiwia-blue text-white'
+                  : 'text-aiwia-gray-dark hover:text-white'
+              }`}
+            >
+              Home
+            </Link>
+            <Link
+              to="/services"
+              className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
+                isActive('/services')
+                  ? 'bg-aiwia-blue text-white'
+                  : 'text-aiwia-gray-dark hover:text-white'
+              }`}
+            >
+              Services
+            </Link>
             
-            {/* AI Applications Dropdown */}
+            {/* AI Applications Dropdown - moved between Services and About */}
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
@@ -114,6 +174,37 @@ const Navigation = () => {
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
+
+            <Link
+              to="/about"
+              className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
+                isActive('/about')
+                  ? 'bg-aiwia-blue text-white'
+                  : 'text-aiwia-gray-dark hover:text-white'
+              }`}
+            >
+              About
+            </Link>
+            <Link
+              to="/news"
+              className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
+                isActive('/news')
+                  ? 'bg-aiwia-blue text-white'
+                  : 'text-aiwia-gray-dark hover:text-white'
+              }`}
+            >
+              News
+            </Link>
+            <Link
+              to="/contact"
+              className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
+                isActive('/contact')
+                  ? 'bg-aiwia-blue text-white'
+                  : 'text-aiwia-gray-dark hover:text-white'
+              }`}
+            >
+              Contact
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -132,12 +223,22 @@ const Navigation = () => {
                     className="h-12 w-auto"
                   />
                 </div>
-                <NavLinks 
-                  className="flex flex-col space-y-2" 
-                  onClick={() => setIsOpen(false)} 
-                />
+                <Link
+                  to="/"
+                  onClick={() => setIsOpen(false)}
+                  className="px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white text-aiwia-gray-dark"
+                >
+                  Home
+                </Link>
+                <Link
+                  to="/services"
+                  onClick={() => setIsOpen(false)}
+                  className="px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white text-aiwia-gray-dark"
+                >
+                  Services
+                </Link>
                 
-                {/* Mobile AI Applications */}
+                {/* Mobile AI Applications - positioned between Services and About */}
                 <div className="border-t pt-4">
                   <h3 className="font-semibold text-aiwia-gray-dark mb-2">AI Applications</h3>
                   <div className="flex flex-col space-y-2 pl-4">
@@ -153,6 +254,28 @@ const Navigation = () => {
                     ))}
                   </div>
                 </div>
+
+                <Link
+                  to="/about"
+                  onClick={() => setIsOpen(false)}
+                  className="px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white text-aiwia-gray-dark"
+                >
+                  About
+                </Link>
+                <Link
+                  to="/news"
+                  onClick={() => setIsOpen(false)}
+                  className="px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white text-aiwia-gray-dark"
+                >
+                  News
+                </Link>
+                <Link
+                  to="/contact"
+                  onClick={() => setIsOpen(false)}
+                  className="px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white text-aiwia-gray-dark"
+                >
+                  Contact
+                </Link>
               </div>
             </SheetContent>
           </Sheet>
