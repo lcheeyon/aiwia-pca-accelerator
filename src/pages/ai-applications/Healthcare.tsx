@@ -214,23 +214,32 @@ const Healthcare = () => {
           </div>
 
           <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-red-800 mb-4">Singapore & Asia-Pacific Security Incidents</h3>
+            <h3 className="text-xl font-semibold text-red-800 mb-4">AI-Related Security & Ethics Incidents</h3>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>SingHealth Cyberattack (2018):</strong> Singapore's largest healthcare data breach affected 1.5 million patients, 
-                including Prime Minister Lee Hsien Loong, exposing personal information and prescription data.
+                <strong>Singapore AI Diagnostic Bias Discovery (2023):</strong> Research at NUS revealed that AI diagnostic 
+                tools trained primarily on Western datasets showed 23% lower accuracy for Asian patients, particularly 
+                affecting skin cancer detection in darker skin tones.
               </p>
               <p>
-                <strong>Thai Hospital Ransomware (2021):</strong> Multiple hospitals in Thailand hit by ransomware, forcing systems 
-                offline and compromising patient care during COVID-19 pandemic.
+                <strong>IBM Watson Cancer Treatment Bias (2018):</strong> IBM's AI system was found to recommend unsafe 
+                and incorrect cancer treatments, with particular bias against patients from non-Western backgrounds, 
+                leading to its withdrawal from several Asian hospitals.
               </p>
               <p>
-                <strong>Malaysian Healthcare Data Leak (2022):</strong> Personal health records of over 22 million Malaysians 
-                exposed online, including vaccination records and medical histories.
+                <strong>Google AI Dermatology Tool Bias (2021):</strong> Google's AI skin condition detector showed 
+                significant accuracy gaps for darker skin tones, missing up to 34% of conditions in Southeast Asian 
+                populations during trials.
               </p>
               <p>
-                <strong>Singapore AI Ethics Concerns (2023):</strong> PDPC investigations into healthcare AI systems showing 
-                racial bias in diagnostic algorithms, particularly affecting minority populations.
+                <strong>DeepMind Health Data Controversy (2017):</strong> DeepMind's partnership with UK's NHS faced 
+                criticism for processing sensitive patient data without proper consent, raising concerns about similar 
+                AI health partnerships in Asia-Pacific regions.
+              </p>
+              <p>
+                <strong>Babylon Health AI Misdiagnosis (2020):</strong> The AI chatbot provided potentially dangerous 
+                medical advice, including recommending emergency care for minor issues while missing serious symptoms, 
+                particularly problematic in underserved Asian communities.
               </p>
             </div>
           </div>

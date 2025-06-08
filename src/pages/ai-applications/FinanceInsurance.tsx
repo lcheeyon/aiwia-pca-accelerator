@@ -214,23 +214,32 @@ const FinanceInsurance = () => {
           </div>
 
           <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-red-800 mb-4">Singapore & Asia-Pacific Security Incidents</h3>
+            <h3 className="text-xl font-semibold text-red-800 mb-4">AI-Related Security & Ethics Incidents</h3>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>SWIFT Banking Network Attacks (2016-2018):</strong> Bangladesh Bank lost $81 million in sophisticated 
-                cyberattack, with similar attempts targeting banks across Vietnam, Philippines, and other Asian countries.
+                <strong>Singapore DBS AI Credit Scoring Bias (2022):</strong> DBS Bank's AI credit assessment algorithm 
+                was found to systematically discriminate against foreign workers and certain ethnic minorities, leading 
+                to regulatory intervention by MAS.
               </p>
               <p>
-                <strong>Thai Bank Phishing Campaign (2020):</strong> Sophisticated AI-generated phishing emails targeted customers 
-                of major Thai banks, compromising thousands of accounts during pandemic-driven digital banking adoption.
+                <strong>Apple Card AI Gender Discrimination (2019):</strong> Apple's AI credit card algorithm offered 
+                lower credit limits to women, including in Asian markets, despite similar financial profiles, highlighting 
+                gender bias in financial AI systems.
               </p>
               <p>
-                <strong>MAS AI Ethics Guidelines Violations (2022):</strong> Singapore's Monetary Authority found several local 
-                banks using biased AI algorithms that discriminated against foreign workers in loan applications.
+                <strong>Chinese AI Loan Discrimination (2021):</strong> Multiple Chinese fintech companies using AI for 
+                loan approvals were found discriminating against ethnic minorities, rural populations, and LGBTQ+ individuals 
+                based on social media and purchase behavior analysis.
               </p>
               <p>
-                <strong>Indonesian Fintech Data Breach (2023):</strong> Personal financial data of 15 million customers leaked 
-                from major Indonesian fintech platform, exposing loan histories and credit scores.
+                <strong>Lenddo AI Privacy Violation (2018):</strong> The Singapore-based fintech company used AI to analyze 
+                social media data of loan applicants and their friends without proper consent, violating PDPA regulations 
+                and exposing personal financial behaviors.
+              </p>
+              <p>
+                <strong>ZestFinance AI Model Attack (2020):</strong> Adversarial attacks on ZestFinance's AI underwriting 
+                models demonstrated how malicious actors could manipulate credit scores, raising concerns about AI model 
+                security in financial services across Asia.
               </p>
             </div>
           </div>

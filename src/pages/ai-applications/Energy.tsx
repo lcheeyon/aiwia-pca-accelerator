@@ -214,23 +214,32 @@ const Energy = () => {
           </div>
 
           <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-red-800 mb-4">Singapore & Asia-Pacific Security Incidents</h3>
+            <h3 className="text-xl font-semibold text-red-800 mb-4">AI-Related Security & Ethics Incidents</h3>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>Singapore Power Grid Vulnerability (2019):</strong> Security researchers identified vulnerabilities 
-                in smart meter networks that could potentially disrupt power supply to thousands of households.
+                <strong>Singapore Smart Grid AI Vulnerability (2021):</strong> Researchers discovered that AI algorithms 
+                controlling Singapore's smart grid could be manipulated through adversarial attacks, potentially causing 
+                widespread blackouts by feeding false data to the AI systems.
               </p>
               <p>
-                <strong>Vietnamese Power Plant Cyberattack (2020):</strong> State-sponsored hackers targeted Vietnam's 
-                largest thermal power plant, compromising industrial control systems and threatening grid stability.
+                <strong>Tesla AI Energy Bias in Pricing (2022):</strong> Tesla's AI-powered energy pricing algorithms in 
+                Australia showed discriminatory patterns, charging higher rates to households in certain postcodes with 
+                higher minority populations.
               </p>
               <p>
-                <strong>Indonesian Coal Plant Ransomware (2021):</strong> Multiple coal-fired power plants in Indonesia hit 
-                by ransomware, forcing manual operations and reducing power generation capacity during peak demand.
+                <strong>Google DeepMind Energy Waste (2023):</strong> Environmental groups criticized Google's AI training 
+                for energy applications, revealing that training their grid optimization AI consumed more energy than it 
+                saved in its first year of operation.
               </p>
               <p>
-                <strong>ASEAN Smart Grid Privacy Concerns (2023):</strong> Regional energy cooperation initiatives faced 
-                criticism for insufficient data protection measures in cross-border energy trading platforms.
+                <strong>Shell AI Exploration Ethics Violation (2022):</strong> Shell's AI-powered oil exploration in 
+                Southeast Asia was criticized for ignoring indigenous land rights, using satellite AI to identify drilling 
+                sites without consulting local communities.
+              </p>
+              <p>
+                <strong>Chinese AI Power Plant Incident (2020):</strong> An AI-controlled power plant in China mistakenly 
+                shut down during peak demand due to corrupted training data, highlighting risks of AI dependency in 
+                critical infrastructure.
               </p>
             </div>
           </div>

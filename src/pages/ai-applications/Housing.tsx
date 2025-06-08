@@ -214,23 +214,32 @@ const Housing = () => {
           </div>
 
           <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-red-800 mb-4">Singapore & Asia-Pacific Security Incidents</h3>
+            <h3 className="text-xl font-semibold text-red-800 mb-4">AI-Related Security & Ethics Incidents</h3>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>Singapore Smart Home Privacy Breach (2020):</strong> Major smart home platform in Singapore exposed 
-                personal data of 50,000 residents, including home entry patterns and family schedules.
+                <strong>PropertyGuru AI Valuation Bias (2023):</strong> PropertyGuru's AI property valuation system in 
+                Singapore was found to systematically undervalue properties in neighborhoods with higher ethnic minority 
+                populations, perpetuating housing discrimination.
               </p>
               <p>
-                <strong>HDB Smart Lock Vulnerabilities (2021):</strong> Security researchers identified weaknesses in AI-powered 
-                smart locks used in Singapore public housing that could allow unauthorized access.
+                <strong>Amazon Alexa Privacy Violation (2022):</strong> Amazon faced PDPC investigation in Singapore 
+                when Alexa devices in smart homes recorded private conversations without consent, with some recordings 
+                shared with third-party developers.
               </p>
               <p>
-                <strong>Malaysian Property Platform Bias (2022):</strong> Major Malaysian property website found using AI algorithms 
-                that discriminated against certain ethnic groups in property recommendations and pricing.
+                <strong>Airbnb AI Discrimination (2021):</strong> Airbnb's AI recommendation system was found to show 
+                bias against hosts with ethnic minority names across Asian markets, reducing their booking visibility 
+                by up to 30%.
               </p>
               <p>
-                <strong>Thai Smart Condo Data Leak (2023):</strong> Personal information of 30,000 condominium residents leaked 
-                from AI-powered building management system, exposing movement patterns and financial data.
+                <strong>Hong Kong AI Rental Screening (2023):</strong> Several Hong Kong property platforms using AI 
+                for tenant screening were found to discriminate against domestic workers and certain ethnic groups 
+                based on social media analysis and facial recognition.
+              </p>
+              <p>
+                <strong>Ring Doorbell AI Racial Profiling (2022):</strong> Amazon's Ring doorbell AI in Australian 
+                neighborhoods showed higher false positive rates for people of color, leading to discriminatory 
+                security alerts and community tensions.
               </p>
             </div>
           </div>

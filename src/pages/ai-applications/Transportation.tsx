@@ -214,23 +214,32 @@ const Transportation = () => {
           </div>
 
           <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-red-800 mb-4">Singapore & Asia-Pacific Security Incidents</h3>
+            <h3 className="text-xl font-semibold text-red-800 mb-4">AI-Related Security & Ethics Incidents</h3>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>Singapore Smart Traffic System Vulnerability (2020):</strong> Security researchers identified weaknesses 
-                in traffic light control systems that could potentially cause traffic chaos during peak hours.
+                <strong>Uber AI Surge Pricing Discrimination (2021):</strong> Uber's AI algorithm in Singapore was found 
+                to implement discriminatory surge pricing in certain neighborhoods, disproportionately affecting 
+                low-income and minority communities during peak hours.
               </p>
               <p>
-                <strong>Grab Data Privacy Violations (2021):</strong> Singapore PDPC fined Grab for inadequate protection of driver 
-                and passenger location data, exposing movement patterns of millions of users.
+                <strong>Tesla Autopilot Asian Recognition Failure (2022):</strong> Tesla's AI vision system showed 
+                reduced accuracy in recognizing Asian facial features and road signs with Asian characters, leading to 
+                safety concerns in Asian markets.
               </p>
               <p>
-                <strong>Tokyo Olympics Transport Disruption (2021):</strong> Cyberattacks targeted Japan's transportation infrastructure 
-                during the Olympics, attempting to disrupt AI-powered traffic management systems.
+                <strong>Waymo AI Racial Bias (2020):</strong> Studies revealed that Waymo's AI had difficulty detecting 
+                people with darker skin tones, particularly at night, raising serious safety concerns for diverse 
+                populations.
               </p>
               <p>
-                <strong>Malaysian AV Testing Ethics Concerns (2023):</strong> Autonomous vehicle trials in Kuala Lumpur faced criticism 
-                for inadequate informed consent from road users and pedestrians in test areas.
+                <strong>Grab AI Route Bias in Malaysia (2023):</strong> Grab's AI routing system in Kuala Lumpur was 
+                criticized for systematically avoiding certain ethnic neighborhoods, effectively creating digital 
+                redlining in transportation services.
+              </p>
+              <p>
+                <strong>Singapore AV Testing Ethics Violation (2022):</strong> Autonomous vehicle testing in Singapore 
+                faced criticism when AI systems were trained using pedestrian data collected without explicit consent, 
+                violating PDPA guidelines.
               </p>
             </div>
           </div>

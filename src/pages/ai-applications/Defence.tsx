@@ -214,23 +214,32 @@ const Defence = () => {
           </div>
 
           <div className="mt-12 bg-red-50 border border-red-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-red-800 mb-4">Singapore & Asia-Pacific Security Incidents</h3>
+            <h3 className="text-xl font-semibold text-red-800 mb-4">AI-Related Security & Ethics Incidents</h3>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>ASEAN Defense Network Breach (2021):</strong> State-sponsored hackers compromised regional defense 
-                information sharing networks, accessing classified military AI research across multiple Southeast Asian nations.
+                <strong>Project Maven Controversy (2018):</strong> Google employees protested the company's AI work 
+                with the US military for drone targeting, raising ethical concerns about AI in lethal autonomous weapons 
+                that influenced similar debates in Asian defense sectors.
               </p>
               <p>
-                <strong>Singapore Military Contractor Cyberattack (2022):</strong> Defense technology company developing AI systems 
-                for SAF suffered data breach, potentially exposing sensitive military AI capabilities and research.
+                <strong>Clearview AI Facial Recognition Abuse (2021):</strong> The controversial AI facial recognition 
+                system was reportedly used by law enforcement agencies across Asia-Pacific without proper oversight, 
+                violating privacy rights and enabling mass surveillance.
               </p>
               <p>
-                <strong>South China Sea AI Surveillance Ethics (2023):</strong> Regional tensions over AI-powered surveillance 
-                systems in disputed waters raised concerns about automated escalation and rules of engagement.
+                <strong>Israeli AI Weapon System Ethics (2022):</strong> Israel's use of AI in targeted operations 
+                raised international concerns about autonomous weapons, influencing AI ethics discussions in Singapore's 
+                defense technology development.
               </p>
               <p>
-                <strong>Japan Defense AI Data Leak (2023):</strong> Personal information of military personnel involved in AI 
-                research programs exposed, highlighting vulnerabilities in defense AI development security.
+                <strong>China AI Surveillance Expansion (2023):</strong> Reports of AI-powered surveillance systems 
+                targeting ethnic minorities influenced regional discussions about AI ethics in defense and security 
+                applications across Southeast Asia.
+              </p>
+              <p>
+                <strong>Palantir AI Discrimination Concerns (2022):</strong> The US defense contractor's AI systems 
+                faced criticism for potential bias in threat assessment algorithms, raising concerns about similar 
+                systems being deployed in Asia-Pacific defense partnerships.
               </p>
             </div>
           </div>
