@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -34,6 +35,11 @@ import Energy from "./pages/ai-applications/Energy";
 import Transportation from "./pages/ai-applications/Transportation";
 import Housing from "./pages/ai-applications/Housing";
 import Defence from "./pages/ai-applications/Defence";
+import Singapore from "./pages/ai-regulations/Singapore";
+import EUAIAct from "./pages/ai-regulations/EUAIAct";
+import USA from "./pages/ai-regulations/USA";
+import China from "./pages/ai-regulations/China";
+import Global from "./pages/ai-regulations/Global";
 
 const queryClient = new QueryClient();
 
@@ -74,6 +80,11 @@ const App = () => (
           <Route path="/ai-applications/transportation" element={<Transportation />} />
           <Route path="/ai-applications/housing" element={<Housing />} />
           <Route path="/ai-applications/defence" element={<Defence />} />
+          <Route path="/ai-regulations/singapore" element={<Singapore />} />
+          <Route path="/ai-regulations/eu-ai-act" element={<EUAIAct />} />
+          <Route path="/ai-regulations/usa" element={<USA />} />
+          <Route path="/ai-regulations/china" element={<China />} />
+          <Route path="/ai-regulations/global" element={<Global />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

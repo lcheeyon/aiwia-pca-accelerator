@@ -34,6 +34,14 @@ const Navigation = () => {
     { href: '/ai-applications/defence', label: 'Defence' },
   ];
 
+  const aiRegulationsItems = [
+    { href: '/ai-regulations/singapore', label: 'Singapore AI Framework' },
+    { href: '/ai-regulations/eu-ai-act', label: 'EU AI Act' },
+    { href: '/ai-regulations/usa', label: 'USA AI Regulations' },
+    { href: '/ai-regulations/china', label: 'China AI Law' },
+    { href: '/ai-regulations/global', label: 'Other Global Regulations' },
+  ];
+
   const isActive = (href: string) => {
     if (href === '/' && location.pathname === '/') return true;
     if (href !== '/' && location.pathname.startsWith(href)) return true;
@@ -136,7 +144,7 @@ const Navigation = () => {
               Services
             </Link>
             
-            {/* AI Applications Dropdown - moved between Services and About */}
+            {/* AI Applications Dropdown */}
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
@@ -159,6 +167,45 @@ const Navigation = () => {
                       </div>
                       <div className="grid gap-2">
                         {aiApplicationsItems.map((item) => (
+                          <NavigationMenuLink key={item.href} asChild>
+                            <Link
+                              to={item.href}
+                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            >
+                              <div className="text-sm font-medium leading-none">{item.label}</div>
+                            </Link>
+                          </NavigationMenuLink>
+                        ))}
+                      </div>
+                    </div>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
+
+            {/* AI Regulations Dropdown */}
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger className="px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white text-aiwia-gray-dark">
+                    AI Regulations
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <div className="grid w-[400px] gap-3 p-4">
+                      <div className="row-span-3">
+                        <NavigationMenuLink asChild>
+                          <div className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-aiwia-blue/50 to-aiwia-blue p-6 no-underline outline-none focus:shadow-md">
+                            <div className="mb-2 mt-4 text-lg font-medium text-white">
+                              AI Regulations
+                            </div>
+                            <p className="text-sm leading-tight text-white/90">
+                              Explore AI regulatory frameworks worldwide
+                            </p>
+                          </div>
+                        </NavigationMenuLink>
+                      </div>
+                      <div className="grid gap-2">
+                        {aiRegulationsItems.map((item) => (
                           <NavigationMenuLink key={item.href} asChild>
                             <Link
                               to={item.href}
@@ -238,11 +285,28 @@ const Navigation = () => {
                   Services
                 </Link>
                 
-                {/* Mobile AI Applications - positioned between Services and About */}
+                {/* Mobile AI Applications */}
                 <div className="border-t pt-4">
                   <h3 className="font-semibold text-aiwia-gray-dark mb-2">AI Applications</h3>
                   <div className="flex flex-col space-y-2 pl-4">
                     {aiApplicationsItems.map((item) => (
+                      <Link
+                        key={item.href}
+                        to={item.href}
+                        onClick={() => setIsOpen(false)}
+                        className="px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white text-aiwia-gray-dark"
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Mobile AI Regulations */}
+                <div className="border-t pt-4">
+                  <h3 className="font-semibold text-aiwia-gray-dark mb-2">AI Regulations</h3>
+                  <div className="flex flex-col space-y-2 pl-4">
+                    {aiRegulationsItems.map((item) => (
                       <Link
                         key={item.href}
                         to={item.href}
