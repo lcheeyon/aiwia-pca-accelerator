@@ -26,8 +26,8 @@ const USA = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1589308078059-be1415eab4c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-              alt="Washington DC Capitol building representing US AI governance"
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="Technology and coding representing US AI governance"
               className="w-full h-64 md:h-96 object-cover"
             />
           </div>
@@ -49,7 +49,7 @@ const USA = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  President Biden's comprehensive executive order establishes new standards for AI safety and security, protects privacy, advances equity and civil rights, and promotes innovation and competition.
+                  <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">President Biden's comprehensive executive order</a> establishes new standards for AI safety and security, protects privacy, advances equity and civil rights, and promotes innovation and competition.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -86,7 +86,7 @@ const USA = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    The National Institute of Standards and Technology (NIST) AI RMF provides a comprehensive approach to AI risk management.
+                    The <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">National Institute of Standards and Technology (NIST) AI RMF</a> provides a comprehensive approach to AI risk management.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Voluntary framework for organizations</li>
@@ -103,7 +103,7 @@ const USA = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    The Federal Trade Commission focuses on consumer protection and fair competition in AI markets.
+                    The <a href="https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Federal Trade Commission</a> focuses on consumer protection and fair competition in AI markets.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Algorithmic accountability measures</li>
@@ -120,7 +120,7 @@ const USA = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    The Equal Employment Opportunity Commission addresses AI use in employment decisions.
+                    The <a href="https://www.eeoc.gov/newsroom/eeoc-issues-technical-assistance-document-algorithms-and-employment-discrimination" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Equal Employment Opportunity Commission</a> addresses AI use in employment decisions.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Anti-discrimination in hiring algorithms</li>
@@ -143,10 +143,10 @@ const USA = () => {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li><strong>SB 1001:</strong> Bot disclosure requirements</li>
-                    <li><strong>AB 2273:</strong> Children's data protection</li>
+                    <li><strong><a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB1001" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">SB 1001</a>:</strong> Bot disclosure requirements</li>
+                    <li><strong><a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB2273" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AB 2273</a>:</strong> Children's data protection</li>
                     <li><strong>Proposed SB 1047:</strong> AI safety requirements</li>
-                    <li><strong>CCPA/CPRA:</strong> Privacy rights affecting AI</li>
+                    <li><strong><a href="https://oag.ca.gov/privacy/ccpa" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">CCPA/CPRA</a>:</strong> Privacy rights affecting AI</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -157,10 +157,10 @@ const USA = () => {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li><strong>New York:</strong> AI bias auditing requirements</li>
-                    <li><strong>Illinois:</strong> Biometric privacy protections</li>
+                    <li><strong>New York:</strong> <a href="https://www1.nyc.gov/site/dcwp/about/press-releases/dcwp-implements-first-of-its-kind-bias-audit-requirement.page" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AI bias auditing requirements</a></li>
+                    <li><strong>Illinois:</strong> <a href="https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3004" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Biometric privacy protections</a></li>
                     <li><strong>Texas:</strong> Deepfake criminalization</li>
-                    <li><strong>Washington:</strong> Facial recognition limitations</li>
+                    <li><strong>Washington:</strong> <a href="https://app.leg.wa.gov/RCW/default.aspx?cite=42.60" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Facial recognition limitations</a></li>
                   </ul>
                 </CardContent>
               </Card>
@@ -177,7 +177,7 @@ const USA = () => {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li>Fed, OCC, FDIC AI risk management guidance</li>
+                    <li><a href="https://www.federalreserve.gov/supervisionreg/srletters/SR2304.htm" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Fed, OCC, FDIC AI risk management guidance</a></li>
                     <li>Fair lending and credit decisioning</li>
                     <li>Model risk management frameworks</li>
                     <li>Stress testing AI systems</li>
@@ -191,8 +191,8 @@ const USA = () => {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li>FDA AI/ML-based medical device pathway</li>
-                    <li>HIPAA privacy considerations</li>
+                    <li><a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">FDA AI/ML-based medical device pathway</a></li>
+                    <li><a href="https://www.hhs.gov/hipaa/index.html" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">HIPAA privacy considerations</a></li>
                     <li>Clinical decision support regulations</li>
                     <li>AI software as medical device (SaMD)</li>
                   </ul>
@@ -205,8 +205,8 @@ const USA = () => {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li>NHTSA autonomous vehicle guidelines</li>
-                    <li>FAA AI in aviation systems</li>
+                    <li><a href="https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">NHTSA autonomous vehicle guidelines</a></li>
+                    <li><a href="https://www.faa.gov/air_traffic/technology/equipadsb/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">FAA AI in aviation systems</a></li>
                     <li>DOT AI strategic plan</li>
                     <li>Federal motor vehicle safety standards</li>
                   </ul>
@@ -219,7 +219,7 @@ const USA = () => {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li>DoD AI ethical principles</li>
+                    <li><a href="https://www.ai.mil/docs/Implementing_Responsible_AI_in_the_Department_of_Defense.pdf" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">DoD AI ethical principles</a></li>
                     <li>Export controls on AI technology</li>
                     <li>CFIUS review of AI investments</li>
                     <li>NSCAI recommendations implementation</li>
@@ -241,10 +241,10 @@ const USA = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-aiwia-gray-dark mb-2">Proposed Legislation</h3>
                     <ul className="list-disc list-inside space-y-1 text-gray-600">
-                      <li>Algorithmic Accountability Act</li>
-                      <li>AI in Government Act</li>
-                      <li>National AI Initiative Act (enacted 2020)</li>
-                      <li>CREATE AI Act</li>
+                      <li><a href="https://www.congress.gov/bill/118th-congress/senate-bill/3312" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Algorithmic Accountability Act</a></li>
+                      <li><a href="https://www.congress.gov/bill/118th-congress/house-bill/5376" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AI in Government Act</a></li>
+                      <li><a href="https://www.congress.gov/bill/116th-congress/house-bill/6216" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">National AI Initiative Act (enacted 2020)</a></li>
+                      <li><a href="https://www.congress.gov/bill/118th-congress/house-bill/2839" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">CREATE AI Act</a></li>
                     </ul>
                   </div>
                   <div>

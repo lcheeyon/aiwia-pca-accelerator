@@ -26,8 +26,8 @@ const China = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-              alt="Beijing skyline representing China's AI governance"
+              src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="Modern technology and coding representing China's AI industry"
               className="w-full h-64 md:h-96 object-cover"
             />
           </div>
@@ -82,7 +82,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    Regulates algorithm-driven recommendation services, requiring transparency, user control, and content responsibility.
+                    <a href="http://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Regulates algorithm-driven recommendation services</a>, requiring transparency, user control, and content responsibility.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Algorithm transparency requirements</li>
@@ -102,7 +102,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    Addresses AI-generated content including deepfakes, virtual avatars, and other synthetic media.
+                    <a href="http://www.cac.gov.cn/2022-12/11/c_1672221949354811.htm" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Addresses AI-generated content</a> including deepfakes, virtual avatars, and other synthetic media.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Deepfake labeling and disclosure</li>
@@ -122,7 +122,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    Comprehensive regulations for generative AI services including large language models and AI chatbots.
+                    <a href="http://www.cac.gov.cn/2023-07/13/c_1690898327029845.htm" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Comprehensive regulations for generative AI services</a> including large language models and AI chatbots.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Pre-launch security assessments</li>
@@ -145,7 +145,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    China's comprehensive privacy law with significant implications for AI systems processing personal data.
+                    <a href="http://www.npc.gov.cn/npc/c30834/202108/a8c4e3672c74491a80b53a172bb753fe.shtml" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">China's comprehensive privacy law</a> with significant implications for AI systems processing personal data.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Consent requirements for data processing</li>
@@ -162,7 +162,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    Establishes data security obligations for organizations processing important data.
+                    <a href="http://www.npc.gov.cn/npc/c30834/202106/7c9af12f51334a73b56d7938f99a788a.shtml" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Establishes data security obligations</a> for organizations processing important data.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Data classification and protection</li>
@@ -179,7 +179,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    Foundational cybersecurity framework affecting AI systems and critical infrastructure.
+                    <a href="http://www.npc.gov.cn/npc/c30834/201611/1c0e3c5c8e184fb5b54b28b9b4b63ff3.shtml" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Foundational cybersecurity framework</a> affecting AI systems and critical infrastructure.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Critical information infrastructure protection</li>
@@ -196,7 +196,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    Provides legal framework for intelligence gathering with implications for AI and data access.
+                    <a href="http://www.npc.gov.cn/npc/c30834/201706/de5ee6b3b2c946b3bb60b80e1dff7b5c.shtml" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Provides legal framework for intelligence gathering</a> with implications for AI and data access.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>State intelligence gathering authority</li>
@@ -219,7 +219,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li>PBOC fintech regulations</li>
+                    <li><a href="http://www.pbc.gov.cn/en/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">PBOC fintech regulations</a></li>
                     <li>AI risk management in banking</li>
                     <li>Credit scoring and lending algorithms</li>
                     <li>Insurance AI applications</li>
@@ -283,10 +283,10 @@ const China = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-aiwia-gray-dark mb-2">Key Regulators</h3>
                     <ul className="list-disc list-inside space-y-1 text-gray-600">
-                      <li>Cyberspace Administration of China (CAC)</li>
-                      <li>Ministry of Industry and Information Technology (MIIT)</li>
-                      <li>State Administration for Market Regulation (SAMR)</li>
-                      <li>Ministry of Public Security (MPS)</li>
+                      <li><a href="http://www.cac.gov.cn/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Cyberspace Administration of China (CAC)</a></li>
+                      <li><a href="https://www.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Ministry of Industry and Information Technology (MIIT)</a></li>
+                      <li><a href="https://www.samr.gov.cn/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">State Administration for Market Regulation (SAMR)</a></li>
+                      <li><a href="https://www.mps.gov.cn/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Ministry of Public Security (MPS)</a></li>
                     </ul>
                   </div>
                   <div>

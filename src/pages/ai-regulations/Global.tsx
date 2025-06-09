@@ -26,8 +26,8 @@ const Global = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-              alt="Global connectivity representing worldwide AI governance"
+              src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="Global meeting with technology displays representing worldwide AI governance"
               className="w-full h-64 md:h-96 object-cover"
             />
           </div>
@@ -67,9 +67,9 @@ const Global = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-aiwia-gray-dark mb-2">International Cooperation</h3>
                     <ul className="list-disc list-inside space-y-1 text-gray-600">
-                      <li>G7 AI principles</li>
-                      <li>OECD AI guidelines</li>
-                      <li>UN AI governance</li>
+                      <li><a href="https://www.g7uk.org/g7-digital-and-technology-track/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">G7 AI principles</a></li>
+                      <li><a href="https://oecd.ai/en/ai-principles" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">OECD AI guidelines</a></li>
+                      <li><a href="https://www.un.org/en/artificial-intelligence" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">UN AI governance</a></li>
                       <li>Regional partnerships</li>
                     </ul>
                   </div>
@@ -94,8 +94,8 @@ const Global = () => {
                     <div>
                       <p className="text-gray-600 mb-2">Japan emphasizes industry self-regulation and international cooperation.</p>
                       <ul className="list-disc list-inside space-y-1 text-gray-600">
-                        <li>AI Governance Guidelines (2021)</li>
-                        <li>Society 5.0 framework</li>
+                        <li><a href="https://www.meti.go.jp/english/press/2021/0109_002.html" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AI Governance Guidelines (2021)</a></li>
+                        <li><a href="https://www8.cao.go.jp/cstp/english/society5_0/index.html" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Society 5.0 framework</a></li>
                         <li>Data-free flow with trust</li>
                         <li>AI ethics principles</li>
                       </ul>
@@ -125,10 +125,10 @@ const Global = () => {
                     <div>
                       <p className="text-gray-600 mb-2">South Korea balances AI innovation with ethical considerations.</p>
                       <ul className="list-disc list-inside space-y-1 text-gray-600">
-                        <li>National AI Strategy (2019)</li>
-                        <li>AI Ethics Standards (2020)</li>
-                        <li>K-Digital New Deal</li>
-                        <li>Personal Information Protection Act</li>
+                        <li><a href="https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mId=4&mPid=2&pageIndex=&bbsSeqNo=42&nttSeqNo=621&searchOpt=&searchTxt=" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">National AI Strategy (2019)</a></li>
+                        <li><a href="https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mId=4&mPid=2&pageIndex=&bbsSeqNo=42&nttSeqNo=657&searchOpt=&searchTxt=" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AI Ethics Standards (2020)</a></li>
+                        <li><a href="https://english.mospa.go.kr/eng/a_02/a_02_03/a_02_03_01.jsp" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">K-Digital New Deal</a></li>
+                        <li><a href="https://www.pipc.go.kr/cmt/not/ntc/selectBoardArticle.do?bbsId=BBSMSTR_000000000121&nttId=8186" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Personal Information Protection Act</a></li>
                       </ul>
                     </div>
                     <div>
@@ -156,10 +156,10 @@ const Global = () => {
                     <div>
                       <p className="text-gray-600 mb-2">Australia adopts a principles-based approach with sector-specific guidance.</p>
                       <ul className="list-disc list-inside space-y-1 text-gray-600">
-                        <li>AI Ethics Framework (2019)</li>
-                        <li>Australia's AI Action Plan</li>
-                        <li>Privacy Act considerations</li>
-                        <li>Consumer Data Right</li>
+                        <li><a href="https://www.industry.gov.au/data-and-publications/building-australias-artificial-intelligence-capability/ai-ethics-framework" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AI Ethics Framework (2019)</a></li>
+                        <li><a href="https://www.industry.gov.au/data-and-publications/australias-artificial-intelligence-action-plan" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Australia's AI Action Plan</a></li>
+                        <li><a href="https://www.oaic.gov.au/privacy/the-privacy-act" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Privacy Act considerations</a></li>
+                        <li><a href="https://www.accc.gov.au/business/consumer-data-right" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Consumer Data Right</a></li>
                       </ul>
                     </div>
                     <div>
@@ -187,10 +187,10 @@ const Global = () => {
                     <div>
                       <p className="text-gray-600 mb-2">India focuses on AI for development and inclusive growth.</p>
                       <ul className="list-disc list-inside space-y-1 text-gray-600">
-                        <li>National AI Strategy (2018)</li>
-                        <li>Responsible AI principles</li>
-                        <li>Digital Personal Data Protection Act</li>
-                        <li>AI for All initiative</li>
+                        <li><a href="https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">National AI Strategy (2018)</a></li>
+                        <li><a href="https://www.meity.gov.in/responsible-ai" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Responsible AI principles</a></li>
+                        <li><a href="https://www.meity.gov.in/content/digital-personal-data-protection-act-2023" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Digital Personal Data Protection Act</a></li>
+                        <li><a href="https://www.niti.gov.in/ai" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AI for All initiative</a></li>
                       </ul>
                     </div>
                     <div>
@@ -219,10 +219,10 @@ const Global = () => {
                 <CardContent>
                   <p className="text-gray-600 mb-3">UK pursues a principles-based, innovation-friendly approach to AI regulation.</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
-                    <li>National AI Strategy (2021)</li>
-                    <li>AI White Paper (2023)</li>
+                    <li><a href="https://www.gov.uk/government/publications/national-ai-strategy" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">National AI Strategy (2021)</a></li>
+                    <li><a href="https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AI White Paper (2023)</a></li>
                     <li>Pro-innovation regulation principles</li>
-                    <li>AI Safety Institute establishment</li>
+                    <li><a href="https://www.aisi.gov.uk/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AI Safety Institute establishment</a></li>
                     <li>Existing regulator approach</li>
                   </ul>
                 </CardContent>
@@ -235,7 +235,7 @@ const Global = () => {
                 <CardContent>
                   <p className="text-gray-600 mb-3">Switzerland emphasizes AI ethics and responsible innovation.</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
-                    <li>Digital Switzerland Strategy</li>
+                    <li><a href="https://www.bakom.admin.ch/bakom/en/homepage/digital-switzerland-and-internet/digital-switzerland/digital-switzerland-strategy.html" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Digital Switzerland Strategy</a></li>
                     <li>AI guidelines development</li>
                     <li>Data protection alignment</li>
                     <li>Research and innovation focus</li>
@@ -251,7 +251,7 @@ const Global = () => {
                 <CardContent>
                   <p className="text-gray-600 mb-3">Norway focuses on trustworthy AI and digital transformation.</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
-                    <li>National AI Strategy</li>
+                    <li><a href="https://www.regjeringen.no/en/dokumenter/national-strategy-for-artificial-intelligence/id2685594/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">National AI Strategy</a></li>
                     <li>AI ethics guidelines</li>
                     <li>Public sector AI adoption</li>
                     <li>GDPR compliance framework</li>
@@ -289,8 +289,8 @@ const Global = () => {
                 <CardContent>
                   <p className="text-gray-600 mb-3">Canada is developing comprehensive AI legislation with a human-rights focus.</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
-                    <li>Proposed Artificial Intelligence and Data Act (AIDA)</li>
-                    <li>Pan-Canadian AI Strategy</li>
+                    <li><a href="https://www.parl.ca/DocumentViewer/en/44-1/bill/C-27/third-reading" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Proposed Artificial Intelligence and Data Act (AIDA)</a></li>
+                    <li><a href="https://www.ic.gc.ca/eic/site/ai-ia.nsf/eng/home" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Pan-Canadian AI Strategy</a></li>
                     <li>AI and privacy impact assessments</li>
                     <li>Charter of Rights considerations</li>
                     <li>Innovation and ethics balance</li>
@@ -305,9 +305,9 @@ const Global = () => {
                 <CardContent>
                   <p className="text-gray-600 mb-3">Brazil is developing AI governance with focus on innovation and rights protection.</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
-                    <li>Brazilian AI Strategy (2021)</li>
+                    <li><a href="https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/inteligenciaartificial" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Brazilian AI Strategy (2021)</a></li>
                     <li>AI legal framework development</li>
-                    <li>LGPD privacy law application</li>
+                    <li><a href="https://www.gov.br/anpd/pt-br" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">LGPD privacy law application</a></li>
                     <li>Digital government initiatives</li>
                     <li>Regional AI cooperation</li>
                   </ul>
@@ -337,7 +337,7 @@ const Global = () => {
                 <CardContent>
                   <p className="text-gray-600 mb-3">Chile pursues AI governance with focus on transparency and accountability.</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
-                    <li>National AI Policy</li>
+                    <li><a href="https://www.gob.cl/en/ministries/interior-and-public-security/national-artificial-intelligence-policy/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">National AI Policy</a></li>
                     <li>Algorithmic transparency initiatives</li>
                     <li>Public sector AI guidelines</li>
                     <li>Innovation ecosystem support</li>
@@ -359,9 +359,9 @@ const Global = () => {
                 <CardContent>
                   <p className="text-gray-600 mb-3">UAE positions itself as a global AI hub with comprehensive governance framework.</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
-                    <li>UAE AI Strategy 2031</li>
-                    <li>AI Ethics Guidelines</li>
-                    <li>Dubai AI roadmap</li>
+                    <li><a href="https://u.ae/en/about-the-uae/strategies-initiatives-and-awards/federal-governments-strategies-and-plans/uae-strategy-for-artificial-intelligence-2031" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">UAE AI Strategy 2031</a></li>
+                    <li><a href="https://www.mbrif.gov.ae/en/ai-ethics-guidelines" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AI Ethics Guidelines</a></li>
+                    <li><a href="https://www.dubaifuture.gov.ae/our-initiatives/dubai-ai-roadmap-2071/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Dubai AI roadmap</a></li>
                     <li>Government AI initiatives</li>
                     <li>Smart city implementations</li>
                   </ul>
@@ -375,7 +375,7 @@ const Global = () => {
                 <CardContent>
                   <p className="text-gray-600 mb-3">Israel leverages its tech ecosystem for AI innovation and regulation development.</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
-                    <li>National AI Initiative</li>
+                    <li><a href="https://www.gov.il/en/departments/policies/artificial_intelligence_initiative" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">National AI Initiative</a></li>
                     <li>AI ethics committee</li>
                     <li>Defense AI applications</li>
                     <li>Privacy protection framework</li>
@@ -394,7 +394,7 @@ const Global = () => {
                     <li>National AI Strategy framework</li>
                     <li>AI ethics principles</li>
                     <li>Digital transformation agenda</li>
-                    <li>POPI Act compliance</li>
+                    <li><a href="https://popia.co.za/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">POPI Act compliance</a></li>
                     <li>African AI collaboration</li>
                   </ul>
                 </CardContent>
@@ -410,7 +410,7 @@ const Global = () => {
                     <li>National AI Strategy development</li>
                     <li>Digital economy initiatives</li>
                     <li>AI research and development</li>
-                    <li>Data protection framework</li>
+                    <li><a href="https://ndpr.gov.ng/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Data protection framework</a></li>
                     <li>Regional technology leadership</li>
                   </ul>
                 </CardContent>
@@ -429,7 +429,7 @@ const Global = () => {
                 <CardContent>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
-                      <p className="text-gray-600 mb-2">The OECD AI Principles provide international consensus on responsible AI stewardship.</p>
+                      <p className="text-gray-600 mb-2">The <a href="https://oecd.ai/en/ai-principles" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">OECD AI Principles</a> provide international consensus on responsible AI stewardship.</p>
                       <ul className="list-disc list-inside space-y-1 text-gray-600">
                         <li>Inclusive growth and sustainable development</li>
                         <li>Human-centered values and fairness</li>
@@ -457,9 +457,9 @@ const Global = () => {
                 <CardContent>
                   <p className="text-gray-600 mb-3">International standards for AI systems and governance.</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
-                    <li>ISO/IEC 23053: Framework for AI systems using ML</li>
-                    <li>ISO/IEC 23894: AI risk management</li>
-                    <li>ISO/IEC 23007: Lifecycle processes for AI systems</li>
+                    <li><a href="https://www.iso.org/standard/74438.html" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">ISO/IEC 23053: Framework for AI systems using ML</a></li>
+                    <li><a href="https://www.iso.org/standard/77304.html" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">ISO/IEC 23894: AI risk management</a></li>
+                    <li><a href="https://www.iso.org/standard/77154.html" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">ISO/IEC 23007: Lifecycle processes for AI systems</a></li>
                     <li>Ongoing standards development</li>
                   </ul>
                 </CardContent>
@@ -472,10 +472,10 @@ const Global = () => {
                 <CardContent>
                   <p className="text-gray-600 mb-3">United Nations initiatives for global AI governance and cooperation.</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
-                    <li>AI for Good Global Summit</li>
-                    <li>High-level Advisory Body on AI</li>
-                    <li>UNESCO AI Ethics Recommendation</li>
-                    <li>ITU AI for Good platform</li>
+                    <li><a href="https://aiforgood.itu.int/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AI for Good Global Summit</a></li>
+                    <li><a href="https://www.un.org/en/artificial-intelligence" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">High-level Advisory Body on AI</a></li>
+                    <li><a href="https://en.unesco.org/artificial-intelligence/ethics" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">UNESCO AI Ethics Recommendation</a></li>
+                    <li><a href="https://www.itu.int/en/ITU-T/AI/Pages/default.aspx" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">ITU AI for Good platform</a></li>
                   </ul>
                 </CardContent>
               </Card>

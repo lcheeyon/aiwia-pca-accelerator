@@ -26,8 +26,8 @@ const EUAIAct = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1494790108755-2616c0763c8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-              alt="European Parliament building representing EU AI Act"
+              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="European technology and AI governance"
               className="w-full h-64 md:h-96 object-cover"
             />
           </div>
@@ -43,7 +43,7 @@ const EUAIAct = () => {
             <Card>
               <CardContent className="pt-6">
                 <p className="text-gray-600 mb-4">
-                  The EU AI Act, formally adopted in 2024, is the world's first comprehensive legal framework for artificial intelligence. It takes a risk-based approach to AI regulation, categorizing AI systems by their potential impact on safety and fundamental rights.
+                  The <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">EU AI Act</a>, formally adopted in 2024, is the world's first comprehensive legal framework for artificial intelligence. It takes a risk-based approach to AI regulation, categorizing AI systems by their potential impact on safety and fundamental rights.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mt-6">
                   <div>
@@ -238,7 +238,7 @@ const EUAIAct = () => {
                       <li>National competent authorities</li>
                       <li>Market surveillance authorities</li>
                       <li>Notified bodies for conformity assessment</li>
-                      <li>EU AI Office for foundation models</li>
+                      <li><a href="https://digital-strategy.ec.europa.eu/en/policies/ai-office" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">EU AI Office</a> for foundation models</li>
                     </ul>
                   </div>
                 </div>
