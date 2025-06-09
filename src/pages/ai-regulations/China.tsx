@@ -82,7 +82,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    <a href="http://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Regulates algorithm-driven recommendation services</a>, requiring transparency, user control, and content responsibility.
+                    Regulates algorithm-driven recommendation services, requiring transparency, user control, and content responsibility. <a href="https://www.chinalawtranslate.com/en/algorithmic-recommendation-management-provisions/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">View English translation</a>
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Algorithm transparency requirements</li>
@@ -102,7 +102,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    <a href="http://www.cac.gov.cn/2022-12/11/c_1672221949354811.htm" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Addresses AI-generated content</a> including deepfakes, virtual avatars, and other synthetic media.
+                    Addresses AI-generated content including deepfakes, virtual avatars, and other synthetic media. <a href="https://www.chinalawtranslate.com/en/deep-synthesis-provisions/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">View English translation</a>
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Deepfake labeling and disclosure</li>
@@ -122,7 +122,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    <a href="http://www.cac.gov.cn/2023-07/13/c_1690898327029845.htm" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Comprehensive regulations for generative AI services</a> including large language models and AI chatbots.
+                    Comprehensive regulations for generative AI services including large language models and AI chatbots. <a href="https://www.chinalawtranslate.com/en/draft-measures-for-generative-ai-services/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">View English translation</a>
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Pre-launch security assessments</li>
@@ -145,7 +145,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    <a href="http://www.npc.gov.cn/npc/c30834/202108/a8c4e3672c74491a80b53a172bb753fe.shtml" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">China's comprehensive privacy law</a> with significant implications for AI systems processing personal data.
+                    China's comprehensive privacy law with significant implications for AI systems processing personal data. <a href="https://www.chinalawtranslate.com/en/personal-information-protection-law/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">View English translation</a>
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Consent requirements for data processing</li>
@@ -162,7 +162,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    <a href="http://www.npc.gov.cn/npc/c30834/202106/7c9af12f51334a73b56d7938f99a788a.shtml" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Establishes data security obligations</a> for organizations processing important data.
+                    Establishes data security obligations for organizations processing important data. <a href="https://www.chinalawtranslate.com/en/data-security-law/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">View English translation</a>
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Data classification and protection</li>
@@ -179,7 +179,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    <a href="http://www.npc.gov.cn/npc/c30834/201611/1c0e3c5c8e184fb5b54b28b9b4b63ff3.shtml" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Foundational cybersecurity framework</a> affecting AI systems and critical infrastructure.
+                    Foundational cybersecurity framework affecting AI systems and critical infrastructure. <a href="https://www.chinalawtranslate.com/en/cybersecurity-law/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">View English translation</a>
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Critical information infrastructure protection</li>
@@ -196,7 +196,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    <a href="http://www.npc.gov.cn/npc/c30834/201706/de5ee6b3b2c946b3bb60b80e1dff7b5c.shtml" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Provides legal framework for intelligence gathering</a> with implications for AI and data access.
+                    Provides legal framework for intelligence gathering with implications for AI and data access. <a href="https://www.chinalawtranslate.com/en/national-intelligence-law/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">View English translation</a>
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>State intelligence gathering authority</li>
@@ -233,7 +233,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li>Medical AI device approvals</li>
+                    <li><a href="https://en.nmpa.gov.cn/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">NMPA medical AI device approvals</a></li>
                     <li>Clinical trial data requirements</li>
                     <li>Health data protection measures</li>
                     <li>Telemedicine AI applications</li>
@@ -247,7 +247,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li>Testing and deployment standards</li>
+                    <li><a href="https://www.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">MIIT testing and deployment standards</a></li>
                     <li>Data collection and mapping restrictions</li>
                     <li>Safety certification requirements</li>
                     <li>Local partnership mandates</li>
@@ -261,7 +261,7 @@ const China = () => {
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li>Individual and corporate scoring systems</li>
+                    <li><a href="https://www.creditchina.gov.cn/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Individual and corporate scoring systems</a></li>
                     <li>Data integration requirements</li>
                     <li>Behavioral monitoring and analysis</li>
                     <li>Reward and penalty mechanisms</li>
