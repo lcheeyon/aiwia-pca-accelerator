@@ -44,7 +44,9 @@ const Singapore = () => {
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    Model AI Governance Framework
+                    <a href="https://www.pdpc.gov.sg/Help-and-Resources/2020/01/Model-AI-Governance-Framework" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">
+                      Model AI Governance Framework
+                    </a>
                     <Badge variant="secondary">2019-2023</Badge>
                   </CardTitle>
                 </CardHeader>
@@ -64,7 +66,9 @@ const Singapore = () => {
               <Card>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
-                    AI Verify Foundation
+                    <a href="https://aiverifyfoundation.sg/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">
+                      AI Verify Foundation
+                    </a>
                     <Badge variant="secondary">2022</Badge>
                   </CardTitle>
                 </CardHeader>
@@ -129,21 +133,33 @@ const Singapore = () => {
               <CardContent className="pt-6">
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-xl font-semibold text-aiwia-gray-dark mb-3">Personal Data Protection Act (PDPA)</h3>
+                    <h3 className="text-xl font-semibold text-aiwia-gray-dark mb-3">
+                      <a href="https://www.pdpc.gov.sg/Overview-of-PDPA/The-Legislation/Personal-Data-Protection-Act" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">
+                        Personal Data Protection Act (PDPA)
+                      </a>
+                    </h3>
                     <p className="text-gray-600 mb-2">
                       Singapore's PDPA governs the collection, use, and disclosure of personal data, with specific implications for AI systems that process personal information.
                     </p>
                   </div>
                   
                   <div>
-                    <h3 className="text-xl font-semibold text-aiwia-gray-dark mb-3">Financial Services Regulations</h3>
+                    <h3 className="text-xl font-semibold text-aiwia-gray-dark mb-3">
+                      <a href="https://www.mas.gov.sg/regulation/guidelines/guidelines-on-fairness-ethics-accountability-and-transparency" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">
+                        Financial Services Regulations
+                      </a>
+                    </h3>
                     <p className="text-gray-600 mb-2">
                       MAS (Monetary Authority of Singapore) has issued guidelines for AI and data analytics in financial services, emphasizing fairness, ethics, accountability, and transparency (FEAT).
                     </p>
                   </div>
                   
                   <div>
-                    <h3 className="text-xl font-semibold text-aiwia-gray-dark mb-3">Healthcare AI Guidelines</h3>
+                    <h3 className="text-xl font-semibold text-aiwia-gray-dark mb-3">
+                      <a href="https://www.hsa.gov.sg/medical-devices/overview" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">
+                        Healthcare AI Guidelines
+                      </a>
+                    </h3>
                     <p className="text-gray-600 mb-2">
                       HSA (Health Sciences Authority) provides regulatory pathways for AI-based medical devices and software as medical devices (SaMD).
                     </p>
@@ -159,11 +175,15 @@ const Singapore = () => {
             <div className="grid md:grid-cols-2 gap-8">
               <Card>
                 <CardHeader>
-                  <CardTitle>IMDA Initiatives</CardTitle>
+                  <CardTitle>
+                    <a href="https://www.imda.gov.sg/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">
+                      IMDA Initiatives
+                    </a>
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li>AI Singapore program</li>
+                    <li><a href="https://aisingapore.org/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">AI Singapore program</a></li>
                     <li>Industry transformation maps</li>
                     <li>AI apprenticeship programs</li>
                     <li>Sandbox environments for testing</li>

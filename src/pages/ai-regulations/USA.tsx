@@ -26,8 +26,8 @@ const USA = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-              alt="Technology and coding representing US AI governance"
+              src="https://images.unsplash.com/photo-1529094136137-3ad9c1753e28?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="United States Capitol building representing American AI governance"
               className="w-full h-64 md:h-96 object-cover"
             />
           </div>
@@ -43,13 +43,15 @@ const USA = () => {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  Safe, Secure, and Trustworthy AI
+                  <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">
+                    Safe, Secure, and Trustworthy AI
+                  </a>
                   <Badge variant="secondary">Executive Order 14110</Badge>
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-4">
-                  <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">President Biden's comprehensive executive order</a> establishes new standards for AI safety and security, protects privacy, advances equity and civil rights, and promotes innovation and competition.
+                  President Biden's comprehensive executive order establishes new standards for AI safety and security, protects privacy, advances equity and civil rights, and promotes innovation and competition.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -82,11 +84,15 @@ const USA = () => {
             <div className="grid gap-6">
               <Card>
                 <CardHeader>
-                  <CardTitle>NIST AI Risk Management Framework</CardTitle>
+                  <CardTitle>
+                    <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">
+                      NIST AI Risk Management Framework
+                    </a>
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    The <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">National Institute of Standards and Technology (NIST) AI RMF</a> provides a comprehensive approach to AI risk management.
+                    The National Institute of Standards and Technology (NIST) AI RMF provides a comprehensive approach to AI risk management.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Voluntary framework for organizations</li>
@@ -99,11 +105,15 @@ const USA = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>FTC AI Guidance</CardTitle>
+                  <CardTitle>
+                    <a href="https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">
+                      FTC AI Guidance
+                    </a>
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    The <a href="https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Federal Trade Commission</a> focuses on consumer protection and fair competition in AI markets.
+                    The Federal Trade Commission focuses on consumer protection and fair competition in AI markets.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Algorithmic accountability measures</li>
@@ -116,11 +126,15 @@ const USA = () => {
 
               <Card>
                 <CardHeader>
-                  <CardTitle>EEOC AI Employment Guidelines</CardTitle>
+                  <CardTitle>
+                    <a href="https://www.eeoc.gov/newsroom/eeoc-issues-technical-assistance-document-algorithms-and-employment-discrimination" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">
+                      EEOC AI Employment Guidelines
+                    </a>
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    The <a href="https://www.eeoc.gov/newsroom/eeoc-issues-technical-assistance-document-algorithms-and-employment-discrimination" target="_blank" rel="noopener noreferrer" className="text-aiwia-blue hover:underline">Equal Employment Opportunity Commission</a> addresses AI use in employment decisions.
+                    The Equal Employment Opportunity Commission addresses AI use in employment decisions.
                   </p>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     <li>Anti-discrimination in hiring algorithms</li>

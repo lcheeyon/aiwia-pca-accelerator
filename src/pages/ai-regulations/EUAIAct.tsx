@@ -26,8 +26,8 @@ const EUAIAct = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-              alt="European technology and AI governance"
+              src="https://images.unsplash.com/photo-1526657782461-9fe13402a841?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+              alt="European Parliament building representing EU AI governance"
               className="w-full h-64 md:h-96 object-cover"
             />
           </div>
