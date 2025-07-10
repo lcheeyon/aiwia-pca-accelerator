@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -16,6 +15,26 @@ const AITechnologyTraining = () => {
   const form = useForm();
 
   const certificationTracks = [
+    {
+      title: "Generative AI Usage",
+      icon: Bot,
+      color: "border-purple-400 bg-purple-50",
+      iconColor: "text-purple-600",
+      description: "Master practical generative AI tools for creativity and productivity",
+      duration: "3 weeks",
+      level: "Beginner",
+      topics: ["ChatGPT & Prompting", "AI Creative Writing", "Image Generation", "Video & Music AI"]
+    },
+    {
+      title: "Responsible AI",
+      icon: Scale,
+      color: "border-red-400 bg-red-50",
+      iconColor: "text-red-600",
+      description: "AI ethics, risk management, governance and verification frameworks",
+      duration: "4 weeks",
+      level: "Intermediate",
+      topics: ["AI Ethics", "Risk Management", "Governance Controls", "AI Verification"]
+    },
     {
       title: "AI Foundations Practitioner",
       icon: Box,
