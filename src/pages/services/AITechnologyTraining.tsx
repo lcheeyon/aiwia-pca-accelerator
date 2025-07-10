@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -22,6 +23,8 @@ const AITechnologyTraining = () => {
       iconColor: "text-purple-600",
       description: "Master practical generative AI tools for creativity and productivity",
       duration: "3 weeks",
+      sessions: "6 sessions",
+      price: "SGD 600",
       level: "Beginner",
       topics: ["ChatGPT & Prompting", "AI Creative Writing", "Image Generation", "Video & Music AI"]
     },
@@ -31,7 +34,9 @@ const AITechnologyTraining = () => {
       color: "border-red-400 bg-red-50",
       iconColor: "text-red-600",
       description: "AI ethics, risk management, governance and verification frameworks",
-      duration: "4 weeks",
+      duration: "3 weeks",
+      sessions: "6 sessions",
+      price: "SGD 600",
       level: "Intermediate",
       topics: ["AI Ethics", "Risk Management", "Governance Controls", "AI Verification"]
     },
@@ -41,9 +46,11 @@ const AITechnologyTraining = () => {
       color: "border-amber-400 bg-amber-50",
       iconColor: "text-amber-600",
       description: "Master the fundamentals of AI and machine learning",
-      duration: "4 weeks",
+      duration: "5 weeks",
+      sessions: "10 sessions",
+      price: "SGD 1000",
       level: "Beginner",
-      topics: ["AI/ML Basics", "Data Requirements", "AI Applications", "Ethics & Bias"]
+      topics: ["AI/ML Basics", "Data Requirements", "AI Applications", "Ethics & Bias", "Capstone Project"]
     },
     {
       title: "ML Developer Pro", 
@@ -51,9 +58,11 @@ const AITechnologyTraining = () => {
       color: "border-blue-400 bg-blue-50",
       iconColor: "text-blue-600",
       description: "Advanced machine learning development and implementation",
-      duration: "6 weeks",
+      duration: "5 weeks",
+      sessions: "10 sessions",
+      price: "SGD 1000",
       level: "Intermediate",
-      topics: ["Algorithm Design", "Model Training", "Performance Optimization", "Deployment"]
+      topics: ["Algorithm Design", "Model Training", "Performance Optimization", "Deployment", "Capstone Project"]
     },
     {
       title: "AI Product Strategist",
@@ -61,7 +70,9 @@ const AITechnologyTraining = () => {
       color: "border-orange-400 bg-orange-50", 
       iconColor: "text-orange-600",
       description: "Strategic AI product development and management",
-      duration: "5 weeks",
+      duration: "3 weeks",
+      sessions: "6 sessions",
+      price: "SGD 600",
       level: "Intermediate",
       topics: ["Product Strategy", "AI Integration", "User Experience", "Market Analysis"]
     },
@@ -156,6 +167,18 @@ const AITechnologyTraining = () => {
                         <span className="font-medium">Duration:</span>
                         <span>{track.duration}</span>
                       </div>
+                      {track.sessions && (
+                        <div className="flex justify-between text-sm">
+                          <span className="font-medium">Sessions:</span>
+                          <span>{track.sessions}</span>
+                        </div>
+                      )}
+                      {track.price && (
+                        <div className="flex justify-between text-sm font-semibold text-aiwia-blue">
+                          <span className="font-medium">Price:</span>
+                          <span>{track.price}</span>
+                        </div>
+                      )}
                       <div className="flex justify-between text-sm">
                         <span className="font-medium">Level:</span>
                         <span>{track.level}</span>
