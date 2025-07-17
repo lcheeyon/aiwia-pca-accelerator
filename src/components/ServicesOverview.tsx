@@ -25,6 +25,13 @@ const ServicesOverview = () => {
       icon: "🛡️", 
       href: "/services/compliance",
       features: ["Data Protection Trustmark", "ISO 27001 ISMS", "ISO 42001 AI Management"]
+    },
+    {
+      title: "Data Protection Officer (DPO) as a Service",
+      description: "Outsourced DPO services for Singapore PDPA compliance and data protection management",
+      icon: "⚖️",
+      href: "/services/dpo-service",
+      features: ["Data Privacy Impact Assessment", "Data Protection Management Plan", "Data Breach Incident Handling"]
     }
   ];
 
@@ -40,7 +47,7 @@ const ServicesOverview = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
               <CardHeader className="text-center pb-4">

@@ -74,6 +74,27 @@ const Services = () => {
           href: "/services/iso-42001"
         }
       ]
+    },
+    {
+      title: "Data Protection Officer (DPO) as a Service",
+      description: "Outsourced DPO services for Singapore PDPA compliance",
+      services: [
+        {
+          name: "Data Privacy Impact Assessment",
+          description: "Comprehensive assessment of data privacy risks and compliance",
+          href: "/services/dpo-service"
+        },
+        {
+          name: "Data Protection Management Plan",
+          description: "Strategic planning and implementation of data protection frameworks",
+          href: "/services/dpo-service"
+        },
+        {
+          name: "Data Breach Incident Handling",
+          description: "Professional response and management of data breach incidents",
+          href: "/services/dpo-service"
+        }
+      ]
     }
   ];
 
