@@ -18,6 +18,7 @@ import AITechnologyTraining from "./pages/services/AITechnologyTraining";
 import GenerativeAIUsage from "./pages/services/GenerativeAIUsage";
 import PrivacySecurityTraining from "./pages/services/PrivacySecurityTraining";
 import AgileAdoptionTraining from "./pages/services/AgileAdoptionTraining";
+import ProfessionalScrumMaster from "./pages/services/ProfessionalScrumMaster";
 import CustomerServiceAI from "./pages/services/CustomerServiceAI";
 import FraudDetection from "./pages/services/FraudDetection";
 import AutomatedReporting from "./pages/services/AutomatedReporting";
@@ -65,6 +66,7 @@ const App = () => (
           <Route path="/services/generative-ai-usage" element={<GenerativeAIUsage />} />
           <Route path="/services/privacy-security-training" element={<PrivacySecurityTraining />} />
           <Route path="/services/agile-adoption-training" element={<AgileAdoptionTraining />} />
+          <Route path="/services/professional-scrum-master" element={<ProfessionalScrumMaster />} />
           <Route path="/services/customer-service-ai" element={<CustomerServiceAI />} />
           <Route path="/services/fraud-detection" element={<FraudDetection />} />
           <Route path="/services/automated-reporting" element={<AutomatedReporting />} />

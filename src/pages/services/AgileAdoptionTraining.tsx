@@ -30,12 +30,13 @@ const AgileAdoptionTraining = () => {
       features: ["Work in Progress Limits", "Visual Boards", "Flow Metrics", "Continuous Delivery"]
     },
     {
-      name: "Professional Scrum Master (PSM)",
-      description: "Comprehensive PSM certification training with exam preparation",
+      name: "Professional Scrum Master (PSM) in the Age of AI",
+      description: "Comprehensive PSM certification training with exam preparation focused on modern AI-driven development",
       duration: "3 days",
       price: "SGD 800 per pax",
       certification: true,
-      features: ["Scrum Theory & Principles", "Scrum Master Role", "Team Facilitation", "Certification Exam"]
+      features: ["Scrum Theory & Principles", "Scrum Master Role", "Team Facilitation", "Certification Exam"],
+      link: "/services/professional-scrum-master"
     },
     {
       name: "Professional Product Owner (PSPO)",
@@ -105,7 +106,7 @@ const AgileAdoptionTraining = () => {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-2">
+                  <ul className="space-y-2 mb-4">
                     {framework.features.map((feature, idx) => (
                       <li key={idx} className="flex items-start">
                         <div className="w-1.5 h-1.5 bg-aiwia-green rounded-full mr-2 mt-2"></div>
@@ -113,6 +114,13 @@ const AgileAdoptionTraining = () => {
                       </li>
                     ))}
                   </ul>
+                  {framework.link && (
+                    <div className="mt-4">
+                      <Button asChild className="w-full bg-aiwia-blue hover:bg-aiwia-blue-dark mb-2">
+                        <Link to={framework.link}>Learn More About This Course</Link>
+                      </Button>
+                    </div>
+                  )}
                 </CardContent>
               </Card>
             ))}
