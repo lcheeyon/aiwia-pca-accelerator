@@ -91,11 +91,12 @@ const About = () => {
               Leadership Team
             </h2>
             <p className="text-xl text-aiwia-gray-dark">
-              Meet our principal consultant and co-founder
+              Meet our founding team
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto space-y-12">
+            {/* Chee Yong Lee */}
             <Card className="overflow-hidden">
               <CardContent className="p-8">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
@@ -108,12 +109,12 @@ const About = () => {
                   </div>
                   <div className="lg:col-span-2">
                     <h3 className="text-2xl font-bold text-aiwia-black mb-2">Chee Yong Lee</h3>
-                    <p className="text-aiwia-green font-semibold mb-4">Principal Consultant & Co-Founder</p>
+                    <p className="text-aiwia-green font-semibold mb-4">CEO & Co-Founder</p>
                     
                     <div className="space-y-4 text-aiwia-gray-dark">
                       <p>
                         Chee Yong is a seasoned technology leader with extensive experience in artificial intelligence, 
-                        cybersecurity, and digital transformation. As the Principal Consultant and Co-Founder of AIWIA, 
+                        cybersecurity, and digital transformation. As the CEO and Co-Founder of AIWIA, 
                         he brings deep expertise in responsible AI adoption and implementation.
                       </p>
                       
@@ -133,6 +134,43 @@ const About = () => {
                         >
                           cheeyonglee.com
                         </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Boon Hong Yeo */}
+            <Card className="overflow-hidden">
+              <CardContent className="p-8">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+                  <div className="lg:col-span-1">
+                    <div className="w-full h-64 bg-aiwia-gray-light rounded-lg shadow-md flex items-center justify-center">
+                      <span className="text-6xl text-aiwia-gray-dark">👤</span>
+                    </div>
+                  </div>
+                  <div className="lg:col-span-2">
+                    <h3 className="text-2xl font-bold text-aiwia-black mb-2">Boon Hong Yeo</h3>
+                    <p className="text-aiwia-green font-semibold mb-4">CTO & Co-Founder</p>
+                    
+                    <div className="space-y-4 text-aiwia-gray-dark">
+                      <p>
+                        Boon Hong is a certified Project Management Professional (PMP) with extensive experience 
+                        in technology leadership and strategic project management. As the CTO and Co-Founder of AIWIA, 
+                        he oversees the technical architecture and implementation of AI solutions.
+                      </p>
+                      
+                      <p>
+                        With a proven track record in managing complex technology projects and leading cross-functional teams, 
+                        Boon Hong brings valuable expertise in project governance, risk management, and stakeholder coordination. 
+                        His technical acumen combined with strong project management skills ensures successful delivery of 
+                        AI transformation initiatives.
+                      </p>
+                      
+                      <p>
+                        Boon Hong's leadership in technology implementation and his commitment to best practices in project 
+                        management make him instrumental in driving AIWIA's mission of responsible AI adoption.
                       </p>
                     </div>
                   </div>
@@ -190,3 +228,4 @@ const About = () => {
 };
 
 export default About;
+
