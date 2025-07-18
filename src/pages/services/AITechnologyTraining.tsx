@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -23,7 +22,7 @@ const AITechnologyTraining = () => {
       iconColor: "text-purple-600",
       description: "Master practical generative AI tools for creativity and productivity",
       duration: "3 weeks",
-      sessions: "6 sessions",
+      sessions: "7 sessions",
       price: "SGD 600",
       level: "Beginner",
       topics: ["ChatGPT & Prompting", "AI Creative Writing", "Image Generation", "Video & Music AI"]

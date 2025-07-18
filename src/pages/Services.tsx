@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -15,6 +14,11 @@ const Services = () => {
           name: "AI Technology Training",
           description: "Productive usage of AI technologies for business optimization",
           href: "/services/ai-technology-training"
+        },
+        {
+          name: "Generative AI Usage Course",
+          description: "Master practical generative AI tools for creativity and productivity",
+          href: "/services/generative-ai-usage"
         },
         {
           name: "Privacy & Security Training",

@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -14,6 +15,7 @@ import DigitalTransformation from "./pages/services/DigitalTransformation";
 import AIAdoption from "./pages/services/AIAdoption";
 import Compliance from "./pages/services/Compliance";
 import AITechnologyTraining from "./pages/services/AITechnologyTraining";
+import GenerativeAIUsage from "./pages/services/GenerativeAIUsage";
 import PrivacySecurityTraining from "./pages/services/PrivacySecurityTraining";
 import AgileAdoptionTraining from "./pages/services/AgileAdoptionTraining";
 import CustomerServiceAI from "./pages/services/CustomerServiceAI";
@@ -60,6 +62,7 @@ const App = () => (
           <Route path="/services/ai-adoption" element={<AIAdoption />} />
           <Route path="/services/compliance" element={<Compliance />} />
           <Route path="/services/ai-technology-training" element={<AITechnologyTraining />} />
+          <Route path="/services/generative-ai-usage" element={<GenerativeAIUsage />} />
           <Route path="/services/privacy-security-training" element={<PrivacySecurityTraining />} />
           <Route path="/services/agile-adoption-training" element={<AgileAdoptionTraining />} />
           <Route path="/services/customer-service-ai" element={<CustomerServiceAI />} />
