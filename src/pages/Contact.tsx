@@ -1,4 +1,5 @@
 
+
 import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -59,6 +60,7 @@ ${formData.message}
     "Data Protection Trustmark",
     "ISO 27001 ISMS",
     "ISO 42001 AI Management",
+    "Data Protection Officer",
     "General Consultation"
   ];
 
@@ -234,3 +236,4 @@ ${formData.message}
 };
 
 export default Contact;
+
