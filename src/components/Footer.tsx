@@ -19,9 +19,12 @@ const Footer = () => {
               Accelerate Responsible Artificial Intelligence Adoption with embedded data Privacy, 
               Cybersecurity and Agile (PCA) process management framework.
             </p>
-            <p className="text-gray-400 text-sm">
-              © 2025 AIWIA Consultancy. All rights reserved.
-            </p>
+            <div className="text-gray-400 text-sm space-y-1">
+              <p>111 North Bridge Road, #20-05</p>
+              <p>Peninsular Plaza, Singapore 179098</p>
+              <p>UEN: 202530684N</p>
+              <p className="mt-2">© 2025 AIWIA Consultancy. All rights reserved.</p>
+            </div>
           </div>
 
           {/* Quick Links */}

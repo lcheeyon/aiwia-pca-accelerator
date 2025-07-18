@@ -48,8 +48,43 @@ const About = () => {
         </div>
       </section>
 
-      {/* Leadership Section */}
+      {/* Company Information */}
       <section className="py-20 bg-aiwia-gray-light">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-aiwia-black mb-4">
+              Company Information
+            </h2>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <Card className="overflow-hidden">
+              <CardContent className="p-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div>
+                    <h3 className="text-xl font-bold text-aiwia-black mb-4">Registered Address</h3>
+                    <div className="text-aiwia-gray-dark space-y-1">
+                      <p>111 North Bridge Road, #20-05</p>
+                      <p>Peninsular Plaza</p>
+                      <p>Singapore 179098</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-aiwia-black mb-4">Business Registration</h3>
+                    <div className="text-aiwia-gray-dark">
+                      <p><strong>UEN:</strong> 202530684N</p>
+                      <p><strong>Entity Type:</strong> Private Limited Company</p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Leadership Section */}
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-aiwia-black mb-4">
@@ -109,7 +144,7 @@ const About = () => {
       </section>
 
       {/* Company Values */}
-      <section className="py-20">
+      <section className="py-20 bg-aiwia-gray-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-aiwia-black mb-4">Why Choose AIWIA</h2>
