@@ -146,9 +146,11 @@ const About = () => {
               <CardContent className="p-8">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
                   <div className="lg:col-span-1">
-                    <div className="w-full h-64 bg-aiwia-gray-light rounded-lg shadow-md flex items-center justify-center">
-                      <span className="text-6xl text-aiwia-gray-dark">👤</span>
-                    </div>
+                    <img 
+                      src="/lovable-uploads/7460d3c8-007e-4581-92c9-1d34315b72fa.png"
+                      alt="Boon Hong Yeo"
+                      className="w-full rounded-lg shadow-md"
+                    />
                   </div>
                   <div className="lg:col-span-2">
                     <h3 className="text-2xl font-bold text-aiwia-black mb-2">Boon Hong Yeo</h3>
