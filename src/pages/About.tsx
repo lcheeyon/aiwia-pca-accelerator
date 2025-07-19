@@ -102,9 +102,9 @@ const About = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
                   <div className="lg:col-span-1">
                     <img 
-                      src="/lovable-uploads/6e6eaa1d-8eb1-4492-8d82-cfe1a1c39817.png"
+                      src="/lovable-uploads/a9c1dcc6-0cad-44bc-b3bd-0082884605ad.png"
                       alt="Chee Yong Lee"
-                      className="w-full rounded-lg shadow-md"
+                      className="w-full h-64 object-cover object-center rounded-lg shadow-md"
                     />
                   </div>
                   <div className="lg:col-span-2">
@@ -149,7 +149,7 @@ const About = () => {
                     <img 
                       src="/lovable-uploads/7460d3c8-007e-4581-92c9-1d34315b72fa.png"
                       alt="Boon Hong Yeo"
-                      className="w-full rounded-lg shadow-md"
+                      className="w-full h-64 object-cover object-center rounded-lg shadow-md"
                     />
                   </div>
                   <div className="lg:col-span-2">
