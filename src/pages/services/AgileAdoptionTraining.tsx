@@ -39,12 +39,13 @@ const AgileAdoptionTraining = () => {
       link: "/services/professional-scrum-master"
     },
     {
-      name: "Professional Product Owner (PSPO)",
-      description: "Complete PSPO certification training with exam preparation", 
+      name: "Professional Product Owner (PSPO) in the Age of AI",
+      description: "Comprehensive PSPO certification training with AI focus and exam preparation", 
       duration: "3 days",
       price: "SGD 800 per pax",
       certification: true,
-      features: ["Product Vision & Strategy", "Backlog Management", "Stakeholder Collaboration", "Certification Exam"]
+      features: ["AI Product Vision & Strategy", "AI-Powered Backlog Management", "Ethical AI Frameworks", "Certification Exam"],
+      link: "/services/professional-product-owner"
     }
   ];
 
