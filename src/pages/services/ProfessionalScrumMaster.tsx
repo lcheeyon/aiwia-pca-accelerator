@@ -15,8 +15,8 @@ const ProfessionalScrumMaster = () => {
   const form = useForm();
 
   const upcomingDates = [
-    "15 Aug 2025",
-    "15 Sep 2025"
+    "18-20 Aug 2025",
+    "22 Sep to 24 Sep 2025"
   ];
 
   const courseModules = [
@@ -404,8 +404,8 @@ const ProfessionalScrumMaster = () => {
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="15-aug-2025">15 August 2025</SelectItem>
-                            <SelectItem value="15-sep-2025">15 September 2025</SelectItem>
+                            <SelectItem value="18-20-aug-2025">18-20 August 2025</SelectItem>
+                            <SelectItem value="22-24-sep-2025">22 Sep to 24 Sep 2025</SelectItem>
                           </SelectContent>
                         </Select>
                         <FormMessage />
