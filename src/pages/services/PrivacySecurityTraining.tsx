@@ -51,7 +51,7 @@ const PrivacySecurityTraining = () => {
                   <CardTitle>{area.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-2">
+                  <ul className="space-y-2 mb-6">
                     {area.topics.map((topic, idx) => (
                       <li key={idx} className="flex items-start">
                         <div className="w-1.5 h-1.5 bg-aiwia-green rounded-full mr-2 mt-2"></div>
@@ -59,6 +59,11 @@ const PrivacySecurityTraining = () => {
                       </li>
                     ))}
                   </ul>
+                  <Button asChild className="w-full bg-aiwia-blue hover:bg-aiwia-blue-dark">
+                    <Link to={`/services/${area.title.toLowerCase().replace(/\s+/g, '-').replace(/&/g, '')}`}>
+                      Learn More
+                    </Link>
+                  </Button>
                 </CardContent>
               </Card>
             ))}

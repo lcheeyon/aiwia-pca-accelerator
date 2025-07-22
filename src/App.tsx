@@ -17,6 +17,9 @@ import Compliance from "./pages/services/Compliance";
 import AITechnologyTraining from "./pages/services/AITechnologyTraining";
 import GenerativeAIUsage from "./pages/services/GenerativeAIUsage";
 import PrivacySecurityTraining from "./pages/services/PrivacySecurityTraining";
+import DataProtectionFundamentals from "./pages/services/DataProtectionFundamentals";
+import CybersecurityEssentials from "./pages/services/CybersecurityEssentials";
+import ComplianceImplementation from "./pages/services/ComplianceImplementation";
 import AgileAdoptionTraining from "./pages/services/AgileAdoptionTraining";
 import ProfessionalScrumMaster from "./pages/services/ProfessionalScrumMaster";
 import ProfessionalProductOwner from "./pages/services/ProfessionalProductOwner";
@@ -66,6 +69,9 @@ const App = () => (
           <Route path="/services/ai-technology-training" element={<AITechnologyTraining />} />
           <Route path="/services/generative-ai-usage" element={<GenerativeAIUsage />} />
           <Route path="/services/privacy-security-training" element={<PrivacySecurityTraining />} />
+          <Route path="/services/data-protection-fundamentals" element={<DataProtectionFundamentals />} />
+          <Route path="/services/cybersecurity-essentials" element={<CybersecurityEssentials />} />
+          <Route path="/services/compliance-implementation" element={<ComplianceImplementation />} />
           <Route path="/services/agile-adoption-training" element={<AgileAdoptionTraining />} />
           <Route path="/services/professional-scrum-master" element={<ProfessionalScrumMaster />} />
           <Route path="/services/professional-product-owner" element={<ProfessionalProductOwner />} />
