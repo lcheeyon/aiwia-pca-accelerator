@@ -117,7 +117,7 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/321b7cf0-83e8-43bd-a713-056398c2c403.png"
               alt="AIWIA Consultancy Logo"
-              className="h-20 w-auto"
+              className="h-12 w-auto"
             />
           </Link>
 
