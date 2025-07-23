@@ -55,6 +55,11 @@ const Services = () => {
           name: "HR Process Optimization",
           description: "Streamlined recruitment and HR management systems",
           href: "/services/hr-optimization"
+        },
+        {
+          name: "Microsoft Copilot Configuration",
+          description: "Training and deployment of MS Copilot for Microsoft 365 and Studio",
+          href: "/services/microsoft-copilot"
         }
       ]
     },

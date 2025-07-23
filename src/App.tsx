@@ -30,6 +30,7 @@ import HROptimization from "./pages/services/HROptimization";
 import ISO27001 from "./pages/services/ISO27001";
 import ISO42001 from "./pages/services/ISO42001";
 import DPOService from "./pages/services/DPOService";
+import MicrosoftCopilot from "./pages/services/MicrosoftCopilot";
 import AIWIAPCAFramework from "./pages/news/AIWIAPCAFramework";
 import ISO42001GameChanger from "./pages/news/ISO42001GameChanger";
 import SingaporeDataProtectionTrustmark from "./pages/news/SingaporeDataProtectionTrustmark";
@@ -82,6 +83,7 @@ const App = () => (
           <Route path="/services/iso-27001" element={<ISO27001 />} />
           <Route path="/services/iso-42001" element={<ISO42001 />} />
           <Route path="/services/dpo-service" element={<DPOService />} />
+          <Route path="/services/microsoft-copilot" element={<MicrosoftCopilot />} />
           <Route path="/news/aiwia-pca-framework" element={<AIWIAPCAFramework />} />
           <Route path="/news/iso-42001-game-changer" element={<ISO42001GameChanger />} />
           <Route path="/news/singapore-data-protection-trustmark" element={<SingaporeDataProtectionTrustmark />} />
