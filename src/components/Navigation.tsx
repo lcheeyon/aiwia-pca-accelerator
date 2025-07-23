@@ -115,9 +115,9 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img 
-              src="/lovable-uploads/8c862949-ea8c-434b-abb1-8edc26aa2707.png"
+              src="/lovable-uploads/321b7cf0-83e8-43bd-a713-056398c2c403.png"
               alt="AIWIA Consultancy Logo"
-              className="h-12 w-auto"
+              className="h-20 w-auto"
             />
           </Link>
 
@@ -265,9 +265,9 @@ const Navigation = () => {
               <div className="flex flex-col space-y-4 mt-8">
                 <div className="flex items-center mb-8">
                   <img 
-                    src="/lovable-uploads/8c862949-ea8c-434b-abb1-8edc26aa2707.png"
+                    src="/lovable-uploads/321b7cf0-83e8-43bd-a713-056398c2c403.png"
                     alt="AIWIA Consultancy Logo"
-                    className="h-12 w-auto"
+                    className="h-16 w-auto"
                   />
                 </div>
                 <Link
