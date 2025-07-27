@@ -8,59 +8,59 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const Compliance = () => {
   const complianceServices = [
     {
-      title: "Data Protection Trustmark",
-      description: "Singapore's data protection certification demonstrating your commitment to responsible data handling",
+      title: "Data Protection Advisory",
+      description: "Comprehensive consultancy for establishing robust data protection policies and PDPA compliance frameworks",
       icon: "🏆",
       scope: [
-        "PDPA compliance assessment",
-        "Data governance framework setup",
-        "Privacy policy development",
-        "Staff training programs",
-        "Ongoing compliance monitoring"
+        "Data protection policy development",
+        "PDPA compliance framework design",
+        "Privacy governance structure setup",
+        "Data handling procedures implementation",
+        "Staff training program development"
       ],
       benefits: [
-        "Enhanced customer trust",
-        "Competitive market advantage",
-        "Reduced regulatory risks",
-        "Improved data governance"
+        "Comprehensive policy framework",
+        "Reduced compliance risks",
+        "Enhanced data governance",
+        "Improved organizational readiness"
       ],
       link: "/services/data-protection-trustmark"
     },
     {
-      title: "ISO 27001 ISMS",
-      description: "Information Security Management System implementation for comprehensive cybersecurity",
+      title: "ISO 27001 ISMS Advisory",
+      description: "Expert guidance for implementing comprehensive Information Security Management System policies and controls",
       icon: "🔒",
       scope: [
-        "Security risk assessment",
-        "ISMS policy development",
-        "Security controls implementation",
-        "Employee security training",
-        "Regular security audits"
+        "ISMS policy framework development",
+        "Security risk management procedures",
+        "Information security controls design",
+        "Security governance structure setup",
+        "Implementation roadmap planning"
       ],
       benefits: [
-        "Enhanced information security",
-        "International recognition",
-        "Risk management framework",
-        "Customer confidence boost"
+        "Robust security framework",
+        "Systematic risk management",
+        "Enhanced security posture",
+        "Organizational security culture"
       ],
       link: "/services/iso-27001"
     },
     {
-      title: "ISO 42001 AI Management",
-      description: "AI Management System standards and certification for responsible AI governance",
+      title: "ISO 42001 AI Management Advisory",
+      description: "Strategic consultancy for establishing comprehensive AI governance policies and responsible AI management frameworks",
       icon: "🤖",
       scope: [
-        "AI governance framework",
-        "AI risk assessment protocols",
-        "Ethical AI guidelines",
-        "AI system documentation",
-        "Performance monitoring systems"
+        "AI governance policy development",
+        "AI risk management framework design",
+        "Ethical AI guidelines establishment",
+        "AI lifecycle management procedures",
+        "AI oversight and monitoring systems"
       ],
       benefits: [
-        "Responsible AI deployment",
-        "Regulatory compliance",
-        "Stakeholder confidence",
-        "Competitive differentiation"
+        "Comprehensive AI governance",
+        "Ethical AI implementation",
+        "Risk-aware AI deployment",
+        "Stakeholder confidence building"
       ],
       link: "/services/iso-42001"
     }
@@ -69,23 +69,23 @@ const Compliance = () => {
   const auditProcess = [
     {
       step: "1",
-      title: "Initial Assessment",
-      description: "Comprehensive evaluation of current compliance status and identification of gaps"
+      title: "Current State Assessment",
+      description: "Comprehensive evaluation of existing policies, procedures, and governance structures"
     },
     {
       step: "2", 
-      title: "Gap Analysis",
-      description: "Detailed analysis of requirements and development of remediation roadmap"
+      title: "Advisory & Planning",
+      description: "Strategic consultation and development of tailored implementation roadmap and frameworks"
     },
     {
       step: "3",
-      title: "Implementation",
-      description: "Systematic implementation of required controls, policies, and procedures"
+      title: "Policy Development",
+      description: "Collaborative development of comprehensive policies, procedures, and governance documentation"
     },
     {
       step: "4",
-      title: "Certification",
-      description: "Final audit and certification process with ongoing compliance support"
+      title: "Implementation Support",
+      description: "Ongoing guidance and support during implementation with training and change management"
     }
   ];
 
@@ -97,10 +97,10 @@ const Compliance = () => {
       <section className="bg-gradient-to-r from-aiwia-blue to-aiwia-blue-dark text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Compliance & Audits</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Advisory & Audit Services</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Professional auditing and compliance services to ensure your organization meets 
-              international standards for data protection, information security, and AI management.
+              Expert advisory and consultancy services to help your organization implement 
+              comprehensive data protection, information security, and AI management policies and practices.
             </p>
           </div>
         </div>
@@ -112,41 +112,42 @@ const Compliance = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-aiwia-black mb-6">
-                Expert Compliance & Audit Services
+                Expert Advisory & Consultancy Services
               </h2>
               <p className="text-lg text-aiwia-gray-dark mb-6">
-                Our comprehensive compliance and audit services help organizations achieve and 
-                maintain certification across multiple international standards. We provide 
-                end-to-end support from initial assessment to ongoing compliance monitoring.
+                Our expert advisory services provide comprehensive consultancy to help organizations 
+                establish robust data protection, information security, and AI management frameworks. 
+                We guide you through policy development, implementation planning, and best practices 
+                to ensure sustainable compliance and governance.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-aiwia-green rounded-full mr-3"></div>
-                  <span className="text-aiwia-gray-dark">Certified auditors and consultants</span>
+                  <span className="text-aiwia-gray-dark">Senior advisory consultants and specialists</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-aiwia-green rounded-full mr-3"></div>
-                  <span className="text-aiwia-gray-dark">Comprehensive compliance frameworks</span>
+                  <span className="text-aiwia-gray-dark">Tailored policy development frameworks</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-aiwia-green rounded-full mr-3"></div>
-                  <span className="text-aiwia-gray-dark">Ongoing support and monitoring</span>
+                  <span className="text-aiwia-gray-dark">Implementation guidance and support</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-aiwia-green rounded-full mr-3"></div>
-                  <span className="text-aiwia-gray-dark">Industry-specific expertise</span>
+                  <span className="text-aiwia-gray-dark">Industry-specific best practices</span>
                 </div>
               </div>
             </div>
             <div className="bg-aiwia-gray-light p-8 rounded-lg">
-              <h3 className="text-xl font-bold text-aiwia-black mb-4">Why Compliance Matters</h3>
+              <h3 className="text-xl font-bold text-aiwia-black mb-4">Why Advisory Services Matter</h3>
               <ul className="space-y-3">
-                <li className="text-aiwia-gray-dark">• Build customer trust and confidence</li>
-                <li className="text-aiwia-gray-dark">• Reduce regulatory and legal risks</li>
-                <li className="text-aiwia-gray-dark">• Gain competitive market advantage</li>
-                <li className="text-aiwia-gray-dark">• Improve operational efficiency</li>
-                <li className="text-aiwia-gray-dark">• Demonstrate corporate responsibility</li>
-                <li className="text-aiwia-gray-dark">• Access new markets and partnerships</li>
+                <li className="text-aiwia-gray-dark">• Establish robust governance frameworks</li>
+                <li className="text-aiwia-gray-dark">• Reduce implementation costs and timelines</li>
+                <li className="text-aiwia-gray-dark">• Ensure sustainable policy adoption</li>
+                <li className="text-aiwia-gray-dark">• Build internal capability and expertise</li>
+                <li className="text-aiwia-gray-dark">• Mitigate compliance and operational risks</li>
+                <li className="text-aiwia-gray-dark">• Achieve strategic organizational alignment</li>
               </ul>
             </div>
           </div>
@@ -157,9 +158,9 @@ const Compliance = () => {
       <section className="py-16 bg-aiwia-gray-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-aiwia-black mb-4">Our Compliance Services</h2>
+            <h2 className="text-3xl font-bold text-aiwia-black mb-4">Our Advisory Services</h2>
             <p className="text-xl text-aiwia-gray-dark">
-              Comprehensive certification and audit services across multiple standards
+              Comprehensive consultancy for implementing robust governance policies and practices
             </p>
           </div>
 
@@ -212,9 +213,9 @@ const Compliance = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-aiwia-black mb-4">Our Audit Process</h2>
+            <h2 className="text-3xl font-bold text-aiwia-black mb-4">Our Advisory Process</h2>
             <p className="text-xl text-aiwia-gray-dark">
-              A systematic approach to achieving and maintaining compliance
+              A systematic consultancy approach to establishing robust governance frameworks
             </p>
           </div>
 
@@ -236,10 +237,10 @@ const Compliance = () => {
       <section className="py-16 bg-aiwia-gray-light">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-aiwia-black mb-6">
-            Ready to Achieve Compliance?
+            Ready to Strengthen Your Governance?
           </h2>
           <p className="text-xl text-aiwia-gray-dark mb-8">
-            Contact us today to discuss your compliance requirements and start your certification journey.
+            Contact us today to discuss your advisory needs and start building robust policies and practices.
           </p>
           <Button asChild className="bg-aiwia-blue hover:bg-aiwia-blue-dark text-lg px-8 py-3">
             <Link to="/contact">Get Started</Link>
