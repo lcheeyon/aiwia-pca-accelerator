@@ -20,7 +20,7 @@ const ServicesOverview = () => {
       features: ["Customer Service AI", "Fraud Detection", "Automated Reporting", "HR Optimization"]
     },
     {
-      title: "Compliance & Audits",
+      title: "Advisory & Audit",
       description: "Data protection, ISO 27001, and AI management system compliance",
       icon: "🛡️", 
       href: "/services/compliance",
