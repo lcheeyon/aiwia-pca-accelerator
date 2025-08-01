@@ -10,6 +10,46 @@ const News = () => {
 
   const newsArticles = [
     {
+      id: "openai-agentic-ai-revolution",
+      title: "OpenAI's Agentic AI Services Transform Enterprise Operations",
+      excerpt: "OpenAI unveils new agentic AI capabilities that enable autonomous task execution and multi-step reasoning across enterprise workflows",
+      date: "July 28, 2025",
+      category: "Technology",
+      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      id: "microsoft-copilot-agentic-update",
+      title: "Microsoft Copilot 2.0: Advanced Agentic AI for Business Productivity",
+      excerpt: "Microsoft's latest Copilot update introduces autonomous agents that can manage complex business processes with minimal human intervention",
+      date: "July 15, 2025",
+      category: "Technology",
+      image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      id: "google-agent-spaces-launch",
+      title: "Google Agent Spaces: Collaborative AI Agents for Team Productivity",
+      excerpt: "Google's new Agent Spaces platform enables multiple AI agents to collaborate seamlessly within shared digital workspaces",
+      date: "June 30, 2025",
+      category: "Technology",
+      image: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      id: "agentic-ai-enterprise-adoption",
+      title: "Enterprise Adoption of Agentic AI: A Comprehensive Analysis",
+      excerpt: "How Fortune 500 companies are implementing agentic AI systems to achieve unprecedented levels of automation and efficiency",
+      date: "June 20, 2025",
+      category: "Industry Insights",
+      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      id: "agentic-ai-governance-framework",
+      title: "Building Governance Frameworks for Agentic AI Deployment",
+      excerpt: "Best practices for establishing oversight and control mechanisms for autonomous AI agents in enterprise environments",
+      date: "June 10, 2025",
+      category: "Compliance",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+    {
       id: "aiwia-pca-framework",
       title: "AIWIA Launches Comprehensive AI Adoption Framework",
       excerpt: "New PCA framework integrates Privacy, Cybersecurity, and Agile methodologies for responsible AI implementation",
