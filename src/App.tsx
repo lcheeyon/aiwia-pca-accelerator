@@ -37,6 +37,11 @@ import SingaporeDataProtectionTrustmark from "./pages/news/SingaporeDataProtecti
 import FutureRAGTechnologies from "./pages/news/FutureRAGTechnologies";
 import AgileTransformationBeyondSoftware from "./pages/news/AgileTransformationBeyondSoftware";
 import CybersecurityAIAge from "./pages/news/CybersecurityAIAge";
+import OpenAIAgenticAI from "./pages/news/OpenAIAgenticAI";
+import MicrosoftCopilotAgentic from "./pages/news/MicrosoftCopilotAgentic";
+import GoogleAgentSpaces from "./pages/news/GoogleAgentSpaces";
+import AgenticAIEnterpriseAdoption from "./pages/news/AgenticAIEnterpriseAdoption";
+import AgenticAIGovernance from "./pages/news/AgenticAIGovernance";
 import Healthcare from "./pages/ai-applications/Healthcare";
 import FinanceInsurance from "./pages/ai-applications/FinanceInsurance";
 import Energy from "./pages/ai-applications/Energy";
@@ -90,6 +95,11 @@ const App = () => (
           <Route path="/news/future-rag-technologies" element={<FutureRAGTechnologies />} />
           <Route path="/news/agile-transformation-beyond-software" element={<AgileTransformationBeyondSoftware />} />
           <Route path="/news/cybersecurity-ai-age" element={<CybersecurityAIAge />} />
+          <Route path="/news/openai-agentic-ai-revolution" element={<OpenAIAgenticAI />} />
+          <Route path="/news/microsoft-copilot-agentic-update" element={<MicrosoftCopilotAgentic />} />
+          <Route path="/news/google-agent-spaces-launch" element={<GoogleAgentSpaces />} />
+          <Route path="/news/agentic-ai-enterprise-adoption" element={<AgenticAIEnterpriseAdoption />} />
+          <Route path="/news/agentic-ai-governance-framework" element={<AgenticAIGovernance />} />
           <Route path="/ai-applications/healthcare" element={<Healthcare />} />
           <Route path="/ai-applications/finance-insurance" element={<FinanceInsurance />} />
           <Route path="/ai-applications/energy" element={<Energy />} />
