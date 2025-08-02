@@ -92,11 +92,16 @@ const BookPromotion = () => {
           <div className="lg:order-first">
             <Card className="bg-white shadow-2xl border-0 overflow-hidden">
               <CardContent className="p-8">
-                <div className="aspect-[3/4] bg-gradient-to-br from-aiwia-blue to-aiwia-green rounded-lg flex items-center justify-center relative overflow-hidden">
-                  <div className="absolute inset-0 bg-black/10"></div>
-                  <div className="relative text-center text-white p-6">
-                    <BookOpen className="h-16 w-16 mx-auto mb-4 opacity-90" />
-                    <h3 className="text-2xl font-bold mb-2">Responsible AI Bible</h3>
+                <div className="aspect-[3/4] rounded-lg overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="AI Robot representing Responsible AI"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-aiwia-blue/80 to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 text-center text-white p-6">
+                    <BookOpen className="h-12 w-12 mx-auto mb-3 opacity-90" />
+                    <h3 className="text-xl font-bold mb-1">Responsible AI Bible</h3>
                     <p className="text-sm opacity-90">Your Complete Guide to Ethical AI Implementation</p>
                   </div>
                 </div>
