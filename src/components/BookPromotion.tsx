@@ -94,8 +94,8 @@ const BookPromotion = () => {
               <CardContent className="p-8">
                 <div className="aspect-[3/4] rounded-lg overflow-hidden relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="AI Robot representing Responsible AI"
+                    src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Innovation and bright ideas for Responsible AI"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-aiwia-blue/80 to-transparent"></div>
