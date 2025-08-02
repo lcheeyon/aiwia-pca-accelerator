@@ -57,26 +57,11 @@ const BookPromotion = () => {
               </div>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex justify-start">
               <Button 
                 asChild 
                 size="lg" 
                 className="bg-aiwia-green hover:bg-aiwia-green-dark text-white"
-              >
-                <a 
-                  href="https://shorturl.at/jFPeQ" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  Get Kindle Edition
-                </a>
-              </Button>
-              
-              <Button 
-                asChild 
-                size="lg" 
-                variant="outline"
-                className="border-aiwia-blue text-aiwia-blue hover:bg-aiwia-blue hover:text-white"
               >
                 <a 
                   href="https://shorturl.at/jFPeQ" 
