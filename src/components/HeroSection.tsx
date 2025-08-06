@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-gradient-to-br from-aiwia-blue via-aiwia-blue-dark to-aiwia-black min-h-[90vh] flex items-center">
+    <section 
+      className="relative bg-gradient-to-br from-aiwia-blue via-aiwia-blue-dark to-aiwia-black min-h-[90vh] flex items-center"
+      role="banner"
+      aria-label="AIWIA Hero Section"
+    >
       <div className="absolute inset-0 bg-black/20"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
@@ -32,8 +36,11 @@ const HeroSection = () => {
           <div className="hidden lg:block">
             <img 
               src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-              alt="AI Technology and Innovation"
+              alt="AI Technology and Innovation - Digital transformation and responsible AI adoption"
               className="rounded-lg shadow-2xl animate-fade-in"
+              loading="eager"
+              width="800"
+              height="600"
             />
           </div>
         </div>
