@@ -20,7 +20,7 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed">
-              With embedded data Privacy, Cybersecurity and Agile (PCA) process management framework
+              We offer training on AI, Agile delivery and consultancy on adopting Responsible AI practices
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
