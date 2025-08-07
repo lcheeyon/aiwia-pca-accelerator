@@ -1,6 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import OptimizedImage from '@/components/OptimizedImage';
 
 const HeroSection = () => {
   return (
@@ -34,13 +35,14 @@ const HeroSection = () => {
           </div>
           
           <div className="hidden lg:block">
-            <img 
+            <OptimizedImage 
               src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="AI Technology and Innovation - Digital transformation and responsible AI adoption"
               className="rounded-lg shadow-2xl animate-fade-in"
               loading="eager"
-              width="800"
-              height="600"
+              width={800}
+              height={600}
+              priority={true}
             />
           </div>
         </div>

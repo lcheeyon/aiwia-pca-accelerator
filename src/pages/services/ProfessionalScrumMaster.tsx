@@ -10,6 +10,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useForm } from 'react-hook-form';
 import { Award, Users, Clock, DollarSign, Calendar, CheckCircle, Target, Book } from 'lucide-react';
+import SEOHead from '@/components/SEOHead';
+import CourseSchema from '@/components/schemas/CourseSchema';
 
 const ProfessionalScrumMaster = () => {
   const form = useForm();
@@ -104,6 +106,23 @@ const ProfessionalScrumMaster = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead 
+        title="Professional Scrum Master (PSM) Certification Course - AI Era Training | AIWIA"
+        description="Professional Scrum Master certification course designed for AI-augmented development environments. 3-day intensive PSM training with hands-on workshops. PSM I certification included."
+        keywords="Professional Scrum Master, PSM certification, Scrum training, Agile certification, AI development, Scrum Master course"
+        canonicalUrl="https://aiwia.app/services/professional-scrum-master"
+      />
+      <CourseSchema 
+        name="Professional Scrum Master (PSM) in the Age of AI"
+        description="A 3-day intensive certification course designed for mastering Scrum in modern AI-augmented development environments"
+        provider="AIWIA"
+        duration="P3D"
+        price="800"
+        currency="SGD"
+        url="https://aiwia.app/services/professional-scrum-master"
+        skillLevel="Intermediate"
+        teaches={["Scrum Framework", "Servant Leadership", "Agile Facilitation", "Team Coaching", "Organizational Change"]}
+      />
       <Navigation />
       
       <section className="bg-gradient-to-r from-aiwia-blue to-aiwia-blue-dark text-white py-20">

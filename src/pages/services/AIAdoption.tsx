@@ -4,8 +4,34 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import SEOHead from '@/components/SEOHead';
+import FAQSchema from '@/components/schemas/FAQSchema';
+import LocalBusinessSchema from '@/components/schemas/LocalBusinessSchema';
 
 const AIAdoption = () => {
+  const faqs = [
+    {
+      question: "What is AI technology adoption and how can it benefit my business?",
+      answer: "AI technology adoption involves integrating artificial intelligence solutions into your existing business processes to automate tasks, improve decision-making, and enhance operational efficiency. Benefits include reduced costs, increased productivity, better customer service, and competitive advantage."
+    },
+    {
+      question: "How long does it take to implement AI solutions?",
+      answer: "Implementation timelines vary based on complexity and scope. Simple AI tools can be deployed in weeks, while comprehensive AI transformation projects typically take 3-6 months. We follow a phased approach to minimize disruption and ensure smooth integration."
+    },
+    {
+      question: "Do I need technical expertise to adopt AI technologies?",
+      answer: "No, our comprehensive training and support programs ensure your team can effectively use AI tools regardless of their technical background. We provide hands-on training, documentation, and ongoing support throughout the adoption process."
+    },
+    {
+      question: "What types of AI solutions do you offer?",
+      answer: "We offer customer service AI with RAG-powered automation, fraud detection systems, automated reporting tools, and HR process optimization. Each solution is customized to your specific business needs and industry requirements."
+    },
+    {
+      question: "How do you ensure AI solutions integrate with existing systems?",
+      answer: "We conduct thorough system assessments and use APIs and integration frameworks to ensure seamless connectivity with your existing infrastructure. Our approach minimizes disruption while maximizing the value of your current technology investments."
+    }
+  ];
+
   const aiSolutions = [
     {
       title: "Customer Service AI",
@@ -79,6 +105,19 @@ const AIAdoption = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead 
+        title="AI Technology Adoption Services - Transform Your Business | AIWIA"
+        description="Professional AI adoption services to integrate cutting-edge AI solutions into your business. Custom AI development, seamless integration, training and ongoing support for maximum ROI."
+        keywords="AI adoption, AI implementation, AI integration, business AI solutions, AI consulting, machine learning adoption"
+        canonicalUrl="https://aiwia.app/services/ai-adoption"
+      />
+      <FAQSchema faqs={faqs} mainEntity="AI Technology Adoption" />
+      <LocalBusinessSchema 
+        name="AIWIA"
+        description="Leading AI consultancy providing AI technology adoption services"
+        url="https://aiwia.app"
+        services={["AI Technology Adoption", "AI Implementation", "AI Training", "AI Consulting"]}
+      />
       <Navigation />
       
       {/* Hero Section */}

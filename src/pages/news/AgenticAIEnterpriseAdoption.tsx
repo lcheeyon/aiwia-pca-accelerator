@@ -3,10 +3,31 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, User, Tag } from 'lucide-react';
+import SEOHead from '@/components/SEOHead';
+import ArticleSchema from '@/components/schemas/ArticleSchema';
 
 const AgenticAIEnterpriseAdoption = () => {
   return (
     <div className="min-h-screen">
+      <SEOHead 
+        title="Enterprise Adoption of Agentic AI: A Comprehensive Analysis | AIWIA"
+        description="How Fortune 500 companies are implementing agentic AI systems to achieve unprecedented levels of automation and efficiency. Comprehensive analysis with industry insights."
+        keywords="agentic AI, enterprise AI adoption, Fortune 500 AI, AI automation, AI implementation, AI business transformation"
+        canonicalUrl="https://aiwia.app/news/agentic-ai-enterprise-adoption"
+      />
+      <ArticleSchema 
+        headline="Enterprise Adoption of Agentic AI: A Comprehensive Analysis"
+        description="How Fortune 500 companies are implementing agentic AI systems to achieve unprecedented levels of automation and efficiency"
+        author="AIWIA Research Team"
+        datePublished="2025-06-20"
+        dateModified="2025-06-20"
+        image="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+        url="https://aiwia.app/news/agentic-ai-enterprise-adoption"
+        articleSection="Industry Insights"
+        keywords={["agentic AI", "enterprise adoption", "Fortune 500", "AI automation", "business transformation"]}
+        wordCount={3500}
+        readingTime="PT15M"
+      />
       <Navigation />
       
       {/* Hero Section */}
