@@ -42,6 +42,10 @@ const Navigation = () => {
     { href: '/ai-regulations/global', label: 'Other Global Regulations' },
   ];
 
+  const demoItems = [
+    { href: 'https://streamlitchat.azurewebsites.net/', label: 'Restaurant Reservation', external: true },
+  ];
+
   const isActive = (href: string) => {
     if (href === '/' && location.pathname === '/') return true;
     if (href !== '/' && location.pathname.startsWith(href)) return true;
@@ -222,6 +226,47 @@ const Navigation = () => {
               </NavigationMenuList>
             </NavigationMenu>
 
+            {/* Demo Dropdown */}
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger className="px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white text-aiwia-gray-dark">
+                    Demo
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <div className="grid w-[300px] gap-3 p-4">
+                      <div className="row-span-3">
+                        <NavigationMenuLink asChild>
+                          <div className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-aiwia-blue/50 to-aiwia-blue p-6 no-underline outline-none focus:shadow-md">
+                            <div className="mb-2 mt-4 text-lg font-medium text-white">
+                              Demo Applications
+                            </div>
+                            <p className="text-sm leading-tight text-white/90">
+                              Experience our AI solutions in action
+                            </p>
+                          </div>
+                        </NavigationMenuLink>
+                      </div>
+                      <div className="grid gap-2">
+                        {demoItems.map((item) => (
+                          <NavigationMenuLink key={item.href} asChild>
+                            <a
+                              href={item.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            >
+                              <div className="text-sm font-medium leading-none">{item.label}</div>
+                            </a>
+                          </NavigationMenuLink>
+                        ))}
+                      </div>
+                    </div>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
+
             <Link
               to="/about"
               className={`px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white ${
@@ -315,6 +360,25 @@ const Navigation = () => {
                       >
                         {item.label}
                       </Link>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Mobile Demo */}
+                <div className="border-t pt-4">
+                  <h3 className="font-semibold text-aiwia-gray-dark mb-2">Demo</h3>
+                  <div className="flex flex-col space-y-2 pl-4">
+                    {demoItems.map((item) => (
+                      <a
+                        key={item.href}
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() => setIsOpen(false)}
+                        className="px-4 py-2 rounded-md transition-colors hover:bg-aiwia-blue-light hover:text-white text-aiwia-gray-dark"
+                      >
+                        {item.label}
+                      </a>
                     ))}
                   </div>
                 </div>
