@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/ai-applications/defence</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/ai-applications/defence" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/ai-applications/defence" />
+  </url>
+  <url>
+    <loc>/ai-applications/energy</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/ai-applications/energy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/ai-applications/energy" />
+  </url>
+  <url>
+    <loc>/ai-applications/finance-insurance</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/ai-applications/finance-insurance" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/ai-applications/finance-insurance" />
+  </url>
+  <url>
+    <loc>/ai-applications/healthcare</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/ai-applications/healthcare" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/ai-applications/healthcare" />
+  </url>
+  <url>
+    <loc>/ai-applications/housing</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/ai-applications/housing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/ai-applications/housing" />
+  </url>
+  <url>
+    <loc>/ai-applications/transportation</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/ai-applications/transportation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/ai-applications/transportation" />
+  </url>
+</urlset>

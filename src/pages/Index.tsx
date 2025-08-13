@@ -6,6 +6,8 @@ import BookPromotion from '@/components/BookPromotion';
 import CompanyValues from '@/components/CompanyValues';
 import Footer from '@/components/Footer';
 import SEOHead from '@/components/SEOHead';
+import SEOHreflang from '@/components/SEOHreflang';
+import LocalBusinessSchema from '@/components/schemas/LocalBusinessSchema';
 
 const Index = () => {
   const structuredData = {
@@ -41,6 +43,8 @@ const Index = () => {
         canonicalUrl="https://aiwia.app/"
         structuredData={structuredData}
       />
+      <SEOHreflang currentPath="/" />
+      <LocalBusinessSchema />
       <Navigation />
       <main>
         <HeroSection />

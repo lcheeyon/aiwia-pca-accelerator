@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/" />
+  </url>
+  <url>
+    <loc>/about</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/about" />
+  </url>
+  <url>
+    <loc>/services</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/services" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/services" />
+  </url>
+  <url>
+    <loc>/news</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/news" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/news" />
+  </url>
+  <url>
+    <loc>/contact</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/contact" />
+  </url>
+</urlset>

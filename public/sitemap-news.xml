@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/news/ai-wiapc-framework</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AIWIA Consultancy</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-01-28</news:publication_date>
+      <news:title>AI WIAPC Framework</news:title>
+    </news:news>
+    <xhtml:link rel="alternate" hreflang="en" href="/news/ai-wiapc-framework" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/news/ai-wiapc-framework" />
+  </url>
+  <url>
+    <loc>/news/agile-transformation-beyond-software</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AIWIA Consultancy</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-01-28</news:publication_date>
+      <news:title>Agile Transformation Beyond Software</news:title>
+    </news:news>
+    <xhtml:link rel="alternate" hreflang="en" href="/news/agile-transformation-beyond-software" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/news/agile-transformation-beyond-software" />
+  </url>
+  <url>
+    <loc>/news/cybersecurity-ai-age</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AIWIA Consultancy</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-01-28</news:publication_date>
+      <news:title>Cybersecurity in AI Age</news:title>
+    </news:news>
+    <xhtml:link rel="alternate" hreflang="en" href="/news/cybersecurity-ai-age" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/news/cybersecurity-ai-age" />
+  </url>
+  <url>
+    <loc>/news/future-rag-technologies</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AIWIA Consultancy</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-01-28</news:publication_date>
+      <news:title>Future of RAG Technologies</news:title>
+    </news:news>
+    <xhtml:link rel="alternate" hreflang="en" href="/news/future-rag-technologies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/news/future-rag-technologies" />
+  </url>
+  <url>
+    <loc>/news/iso42001-game-changer</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AIWIA Consultancy</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-01-28</news:publication_date>
+      <news:title>ISO 42001 Game Changer</news:title>
+    </news:news>
+    <xhtml:link rel="alternate" hreflang="en" href="/news/iso42001-game-changer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/news/iso42001-game-changer" />
+  </url>
+  <url>
+    <loc>/news/singapore-data-protection-trustmark</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AIWIA Consultancy</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-01-28</news:publication_date>
+      <news:title>Singapore Data Protection Trustmark</news:title>
+    </news:news>
+    <xhtml:link rel="alternate" hreflang="en" href="/news/singapore-data-protection-trustmark" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/news/singapore-data-protection-trustmark" />
+  </url>
+</urlset>

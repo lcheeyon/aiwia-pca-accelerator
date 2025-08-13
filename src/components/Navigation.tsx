@@ -12,10 +12,13 @@ import {
   NavigationMenuTrigger,
 } from '@/components/ui/navigation-menu';
 import { Menu, ChevronDown } from 'lucide-react';
+import SearchBar from '@/components/SearchBar';
+import { useSearchTracking } from '@/hooks/useSearchTracking';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const { trackSearch } = useSearchTracking();
 
   const navItems = [
     { href: '/', label: 'Home' },
@@ -124,6 +127,11 @@ const Navigation = () => {
               className="h-12 w-auto"
             />
           </Link>
+
+          {/* Search Bar - Desktop Only */}
+          <div className="hidden lg:flex flex-1 max-w-lg mx-8">
+            <SearchBar onSearchTrack={trackSearch} />
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-2">
@@ -314,6 +322,11 @@ const Navigation = () => {
                     alt="AIWIA Consultancy Logo"
                     className="h-16 w-auto"
                   />
+                </div>
+                
+                {/* Mobile Search */}
+                <div className="mb-6">
+                  <SearchBar onSearchTrack={trackSearch} />
                 </div>
                 <Link
                   to="/"

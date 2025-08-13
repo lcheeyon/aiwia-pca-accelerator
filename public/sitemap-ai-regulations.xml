@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/ai-regulations/china</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/ai-regulations/china" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/ai-regulations/china" />
+  </url>
+  <url>
+    <loc>/ai-regulations/eu-ai-act</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/ai-regulations/eu-ai-act" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/ai-regulations/eu-ai-act" />
+  </url>
+  <url>
+    <loc>/ai-regulations/global</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/ai-regulations/global" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/ai-regulations/global" />
+  </url>
+  <url>
+    <loc>/ai-regulations/singapore</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/ai-regulations/singapore" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/ai-regulations/singapore" />
+  </url>
+  <url>
+    <loc>/ai-regulations/usa</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="/ai-regulations/usa" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="/ai-regulations/usa" />
+  </url>
+</urlset>
