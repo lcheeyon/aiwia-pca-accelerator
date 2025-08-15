@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 import DataProtectionTrustmark from "./pages/services/DataProtectionTrustmark";
 import DigitalTransformation from "./pages/services/DigitalTransformation";
@@ -69,6 +70,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/news" element={<News />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/services/data-protection-trustmark" element={<DataProtectionTrustmark />} />
               <Route path="/services/digital-transformation" element={<DigitalTransformation />} />
               <Route path="/services/ai-adoption" element={<AIAdoption />} />
