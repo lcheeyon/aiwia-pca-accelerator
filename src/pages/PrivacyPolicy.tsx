@@ -26,8 +26,8 @@ const PrivacyPolicy = () => {
           <h1 className="text-4xl font-bold text-aiwia-black mb-8">Data Privacy Policy</h1>
           
           <div className="bg-blue-50 border-l-4 border-aiwia-blue p-6 mb-8">
-            <p className="text-sm text-gray-600 mb-2"><strong>Effective Date:</strong> January 1, 2025</p>
-            <p className="text-sm text-gray-600"><strong>Last Updated:</strong> January 1, 2025</p>
+            <p className="text-sm text-gray-600 mb-2"><strong>Effective Date:</strong> August 15, 2025</p>
+            <p className="text-sm text-gray-600"><strong>Last Updated:</strong> August 15, 2025</p>
           </div>
 
           <section className="mb-8">
