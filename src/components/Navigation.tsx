@@ -47,6 +47,7 @@ const Navigation = () => {
 
   const demoItems = [
     { href: 'https://streamlitchat.azurewebsites.net/', label: 'Restaurant Reservation', external: true },
+    { href: 'https://storage.googleapis.com/aiwia-457203-itcerts-frontend/index.html#/', label: 'IT Certifications', external: true },
   ];
 
   const isActive = (href: string) => {
