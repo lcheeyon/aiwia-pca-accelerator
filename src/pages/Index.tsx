@@ -44,7 +44,20 @@ const Index = () => {
         structuredData={structuredData}
       />
       <SEOHreflang currentPath="/" />
-      <LocalBusinessSchema />
+      <LocalBusinessSchema 
+        name="AIWIA"
+        description="AI consultancy specializing in responsible AI adoption and digital transformation"
+        url="https://aiwia.app"
+        services={[
+          "AI Adoption Strategy",
+          "Digital Transformation Training", 
+          "ISO 42001 Implementation",
+          "ISO 27001 Compliance",
+          "Cybersecurity Training",
+          "Data Protection Services"
+        ]}
+        foundingDate="2024"
+      />
       <Navigation />
       <main>
         <HeroSection />
