@@ -203,18 +203,9 @@ const PrivacyPolicy = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-aiwia-black mb-4">14. Complaints and Contact</h2>
             <p className="mb-4">
-              If you have concerns about how we handle your personal data or wish to make a complaint, please contact us first using 
+              If you have concerns about how we handle your personal data or wish to make a complaint, please contact us using 
               the details in Section 2. We will investigate and respond to your concerns promptly.
             </p>
-            <p className="mb-4">
-              If you are not satisfied with our response, you may lodge a complaint with the Personal Data Protection Commission 
-              Singapore (PDPC):
-            </p>
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <p><strong>Personal Data Protection Commission Singapore</strong></p>
-              <p>Website: www.pdpc.gov.sg</p>
-              <p>Email: enquiries@pdpc.gov.sg</p>
-            </div>
           </section>
 
           <section className="mb-8">
