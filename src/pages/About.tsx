@@ -141,7 +141,8 @@ const About = () => {
               </CardContent>
             </Card>
 
-            {/* Boon Hong Yeo */}
+            {/* Boon Hong Yeo - TEMPORARILY COMMENTED OUT */}
+            {/* 
             <Card className="overflow-hidden">
               <CardContent className="p-8">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
@@ -179,6 +180,7 @@ const About = () => {
                 </div>
               </CardContent>
             </Card>
+            */}
           </div>
         </div>
       </section>
