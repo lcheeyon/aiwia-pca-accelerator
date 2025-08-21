@@ -26,8 +26,8 @@ const PrivacyPolicy = () => {
           <h1 className="text-4xl font-bold text-aiwia-black mb-8">Data Privacy Policy</h1>
           
           <div className="bg-blue-50 border-l-4 border-aiwia-blue p-6 mb-8">
-            <p className="text-sm text-gray-600 mb-2"><strong>Effective Date:</strong> August 15, 2025</p>
-            <p className="text-sm text-gray-600"><strong>Last Updated:</strong> August 15, 2025</p>
+            <p className="text-sm text-gray-600 mb-2"><strong>Effective Date:</strong> August 21, 2025</p>
+            <p className="text-sm text-gray-600"><strong>Last Updated:</strong> August 21, 2025</p>
           </div>
 
           <section className="mb-8">
@@ -52,6 +52,7 @@ const PrivacyPolicy = () => {
               <p>UEN: 202530684N</p>
               <p>Email: info@aiwia.app</p>
               <p>Website: aiwia.app</p>
+              <p className="mt-4 text-sm">For any data protection concerns, please contact our Data Protection Officer (DPO) at dpo@aiwia.app.</p>
             </div>
           </section>
 
@@ -201,10 +202,9 @@ const PrivacyPolicy = () => {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-aiwia-black mb-4">14. Complaints and Contact</h2>
+            <h2 className="text-2xl font-semibold text-aiwia-black mb-4">14. Contact for Data Protection Concerns</h2>
             <p className="mb-4">
-              If you have concerns about how we handle your personal data or wish to make a complaint, please contact us using 
-              the details in Section 2. We will investigate and respond to your concerns promptly.
+              If you have any data protection concerns or questions about how we handle your personal data, please contact our Data Protection Officer at dpo@aiwia.app or use the details in Section 2. We will respond promptly.
             </p>
           </section>
 
@@ -220,7 +220,7 @@ const PrivacyPolicy = () => {
             <p className="text-sm text-gray-600">
               This Privacy Policy demonstrates our commitment to protecting your personal data in accordance with Singapore's 
               Personal Data Protection Act and international best practices. For any questions or clarifications, 
-              please contact us at info@aiwia.app.
+              please contact our Data Protection Officer at dpo@aiwia.app.
             </p>
           </div>
         </div>
