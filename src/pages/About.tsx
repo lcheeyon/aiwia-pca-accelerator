@@ -2,6 +2,7 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
+import aiwiLogo from '@/assets/aiwia-logo-large.png';
 
 const About = () => {
   return (
@@ -44,6 +45,80 @@ const About = () => {
                 className="rounded-lg shadow-lg"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* AIWIA Logo Section */}
+      <section className="py-20 bg-gradient-to-br from-aiwia-blue/5 to-aiwia-green/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-aiwia-black mb-4">
+              Our Logo: A Symbol of Partnership
+            </h2>
+            <p className="text-xl text-aiwia-gray-dark max-w-3xl mx-auto">
+              The AIWIA logo represents the core philosophy of our approach to responsible AI adoption
+            </p>
+          </div>
+
+          <div className="max-w-5xl mx-auto">
+            <Card className="overflow-hidden shadow-xl">
+              <CardContent className="p-12">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                  <div className="text-center">
+                    <img 
+                      src={aiwiLogo}
+                      alt="AIWIA Logo - Partnership Symbol"
+                      className="mx-auto max-w-full h-auto"
+                      style={{ maxHeight: '300px' }}
+                    />
+                  </div>
+                  <div className="space-y-6">
+                    <div>
+                      <h3 className="text-2xl font-bold text-aiwia-black mb-4">
+                        Symbolizing Partnership & Collaboration
+                      </h3>
+                      <p className="text-lg text-aiwia-gray-dark leading-relaxed mb-6">
+                        The AIWIA logo's distinctive shape represents the fundamental partnerships that drive 
+                        successful AI transformation. It embodies our commitment to fostering meaningful 
+                        collaboration at every level of AI adoption.
+                      </p>
+                    </div>
+                    
+                    <div className="space-y-4">
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-aiwia-blue rounded-full mt-2 flex-shrink-0"></div>
+                        <div>
+                          <h4 className="font-semibold text-aiwia-black mb-1">Human-AI Partnership</h4>
+                          <p className="text-aiwia-gray-dark">
+                            Representing the harmonious collaboration between human intelligence and 
+                            artificial intelligence, working together to achieve optimal outcomes.
+                          </p>
+                        </div>
+                      </div>
+                      
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-aiwia-green rounded-full mt-2 flex-shrink-0"></div>
+                        <div>
+                          <h4 className="font-semibold text-aiwia-black mb-1">Employer-Employee Unity</h4>
+                          <p className="text-aiwia-gray-dark">
+                            Symbolizing the essential partnership between employers and employees 
+                            when adopting responsible AI, ensuring trust, transparency, and mutual benefit.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="pt-4 border-t border-aiwia-gray-light">
+                      <p className="text-sm text-aiwia-gray-dark italic">
+                        "True AI transformation happens when partnerships flourish – between humans and technology, 
+                        and between all stakeholders in the organization."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
