@@ -2,7 +2,7 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
-import aiwiLogo from '@/assets/aiwia-logo-large.png';
+import aiwiLogo from '/lovable-uploads/c8248622-4f15-4511-909f-8fc3a18b261d.png';
 
 const About = () => {
   return (
@@ -80,30 +80,41 @@ const About = () => {
                       </h3>
                       <p className="text-lg text-aiwia-gray-dark leading-relaxed mb-6">
                         The AIWIA logo's distinctive shape represents the fundamental partnerships that drive 
-                        successful AI transformation. It embodies our commitment to fostering meaningful 
-                        collaboration at every level of AI adoption.
+                        successful AI transformation. The harmonious blend of cyan and blue colors symbolizes 
+                        the seamless collaboration and trust that forms the foundation of responsible AI adoption.
                       </p>
                     </div>
                     
                     <div className="space-y-4">
                       <div className="flex items-start space-x-3">
-                        <div className="w-3 h-3 bg-aiwia-blue rounded-full mt-2 flex-shrink-0"></div>
+                        <div className="w-3 h-3 bg-cyan-500 rounded-full mt-2 flex-shrink-0"></div>
                         <div>
                           <h4 className="font-semibold text-aiwia-black mb-1">Human-AI Partnership</h4>
                           <p className="text-aiwia-gray-dark">
-                            Representing the harmonious collaboration between human intelligence and 
-                            artificial intelligence, working together to achieve optimal outcomes.
+                            The cyan element represents human intelligence, creativity, and intuition, 
+                            working in harmonious collaboration with artificial intelligence to achieve optimal outcomes.
                           </p>
                         </div>
                       </div>
                       
                       <div className="flex items-start space-x-3">
-                        <div className="w-3 h-3 bg-aiwia-green rounded-full mt-2 flex-shrink-0"></div>
+                        <div className="w-3 h-3 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
                         <div>
                           <h4 className="font-semibold text-aiwia-black mb-1">Employer-Employee Unity</h4>
                           <p className="text-aiwia-gray-dark">
-                            Symbolizing the essential partnership between employers and employees 
-                            when adopting responsible AI, ensuring trust, transparency, and mutual benefit.
+                            The blue element symbolizes the structured foundation and trust between employers 
+                            and employees when adopting responsible AI, ensuring transparency and mutual benefit.
+                          </p>
+                        </div>
+                      </div>
+                      
+                      <div className="flex items-start space-x-3">
+                        <div className="w-3 h-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                        <div>
+                          <h4 className="font-semibold text-aiwia-black mb-1">Harmonious Partnership Colors</h4>
+                          <p className="text-aiwia-gray-dark">
+                            The seamless blend of cyan and blue creates a visual representation of balanced partnership, 
+                            where different strengths unite to form something greater than the sum of their parts.
                           </p>
                         </div>
                       </div>
