@@ -64,6 +64,32 @@ const Services = () => {
       ]
     },
     {
+      title: "Workflow Automation Solutions",
+      description: "Streamline business processes and reduce repetitive tasks with intelligent automation",
+      services: [
+        {
+          name: "n8n Workflow Automation",
+          description: "Custom workflow automation using n8n for seamless process integration",
+          href: "/services/automated-reporting"
+        },
+        {
+          name: "Zapier Integration Services", 
+          description: "Connect and automate your favorite apps and services with Zapier",
+          href: "/services/automated-reporting"
+        },
+        {
+          name: "Custom RAG Implementation",
+          description: "Retrieval-Augmented Generation systems for intelligent document processing",
+          href: "/services/customer-service-ai"
+        },
+        {
+          name: "Business Process Optimization",
+          description: "End-to-end automation solutions to eliminate manual repetitive tasks",
+          href: "/services/automated-reporting"
+        }
+      ]
+    },
+    {
       title: "Compliance & Audits",
       description: "Professional auditing and compliance services",
       services: [

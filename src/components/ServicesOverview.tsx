@@ -14,10 +14,10 @@ const ServicesOverview = () => {
     },
     {
       title: "AI Technology Adoption", 
-      description: "Optimize workflows with RAG technologies, fraud detection, and automation",
+      description: "Optimize workflows with RAG technologies, fraud detection, and intelligent automation",
       icon: "🤖",
       href: "/services/ai-adoption",
-      features: ["Customer Service AI", "Fraud Detection", "Automated Reporting", "HR Optimization"]
+      features: ["Customer Service AI", "Workflow Automation (n8n, Zapier)", "Custom RAG Implementation", "Automated Reporting"]
     },
     {
       title: "Advisory & Audit",
