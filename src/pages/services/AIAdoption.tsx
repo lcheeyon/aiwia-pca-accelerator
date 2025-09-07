@@ -29,6 +29,14 @@ const AIAdoption = () => {
     {
       question: "How do you ensure AI solutions integrate with existing systems?",
       answer: "We conduct thorough system assessments and use APIs and integration frameworks to ensure seamless connectivity with your existing infrastructure. Our approach minimizes disruption while maximizing the value of your current technology investments."
+    },
+    {
+      question: "What workflow automation solutions do you offer?",
+      answer: "We provide comprehensive workflow automation using n8n for custom integrations, Zapier for connecting popular business applications, and custom RAG implementations for intelligent document processing. These solutions help eliminate repetitive manual tasks and streamline business processes."
+    },
+    {
+      question: "How can workflow automation reduce my operational costs?",
+      answer: "Workflow automation eliminates repetitive manual tasks, reduces human errors, and allows your team to focus on higher-value activities. Our solutions typically result in 40-60% time savings on routine processes and significant cost reductions in operational overhead."
     }
   ];
 
@@ -100,15 +108,66 @@ const AIAdoption = () => {
         "Reduced bias in recruitment",
         "Improved employee retention"
       ]
+    },
+    {
+      title: "n8n Workflow Automation",
+      description: "Custom workflow automation platform for seamless integration between different business systems",
+      icon: "⚡",
+      features: [
+        "Visual workflow designer",
+        "500+ app integrations",
+        "Custom API connections",
+        "Real-time process monitoring"
+      ],
+      benefits: [
+        "Eliminate manual data entry",
+        "Reduce processing time by 80%",
+        "Minimize human errors", 
+        "Scale operations efficiently"
+      ]
+    },
+    {
+      title: "Zapier Integration Services",
+      description: "Connect and automate your favorite business applications without coding",
+      icon: "🔗",
+      features: [
+        "5000+ app integrations",
+        "Multi-step workflows",
+        "Conditional logic automation",
+        "Data formatting and filtering"
+      ],
+      benefits: [
+        "Quick setup and deployment",
+        "No technical expertise required",
+        "Improved data consistency",
+        "Enhanced team productivity"
+      ]
+    },
+    {
+      title: "Custom RAG Implementation", 
+      description: "Retrieval-Augmented Generation systems for intelligent document processing and knowledge management",
+      icon: "📚",
+      features: [
+        "Document ingestion and indexing",
+        "Semantic search capabilities",
+        "Context-aware responses",
+        "Multi-format support"
+      ],
+      benefits: [
+        "Instant access to organizational knowledge",
+        "Improved decision-making",
+        "Reduced research time",
+        "Enhanced customer support"
+      ]
     }
   ];
 
   return (
     <div className="min-h-screen">
       <SEOHead 
-        title="AI Technology Adoption Services - Transform Your Business | AIWIA"
-        description="Professional AI adoption services to integrate cutting-edge AI solutions into your business. Custom AI development, seamless integration, training and ongoing support for maximum ROI."
-        keywords="AI adoption, AI implementation, AI integration, business AI solutions, AI consulting, machine learning adoption"
+        title="AI Technology Adoption & Workflow Automation Services | AIWIA"
+        description="Professional AI adoption and workflow automation services using n8n, Zapier, and custom RAG implementations. Transform your business processes and eliminate repetitive tasks."
+        keywords="AI adoption, workflow automation, n8n automation, Zapier integration, RAG implementation, business process automation, AI consulting"
         canonicalUrl="https://aiwia.app/services/ai-adoption"
       />
       <FAQSchema faqs={faqs} mainEntity="AI Technology Adoption" />
@@ -124,10 +183,10 @@ const AIAdoption = () => {
       <section className="bg-gradient-to-r from-aiwia-blue to-aiwia-blue-dark text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">AI Technology Adoption</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">AI Technology Adoption & Workflow Automation</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Transform your business operations with cutting-edge AI solutions designed to optimize 
-              workflows, enhance productivity, and drive innovation across your organization.
+              Transform your business operations with cutting-edge AI solutions and intelligent workflow automation. 
+              Eliminate repetitive tasks, streamline processes, and drive innovation using n8n, Zapier, and custom RAG implementations.
             </p>
           </div>
         </div>
@@ -139,22 +198,22 @@ const AIAdoption = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-aiwia-black mb-6">
-                Harness the Power of AI
+                Harness the Power of AI & Automation
               </h2>
               <p className="text-lg text-aiwia-gray-dark mb-6">
-                Our AI adoption services help organizations integrate intelligent automation and 
-                machine learning solutions into their existing workflows. We focus on practical, 
-                measurable improvements that deliver immediate value while building a foundation 
-                for future innovation.
+                Our AI adoption and workflow automation services help organizations integrate intelligent 
+                automation solutions into their existing workflows. We specialize in reducing repetitive 
+                tasks through n8n custom workflows, Zapier integrations, and custom RAG implementations 
+                that deliver immediate value while building a foundation for future innovation.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-aiwia-green rounded-full mr-3"></div>
-                  <span className="text-aiwia-gray-dark">Custom AI solution development</span>
+                  <span className="text-aiwia-gray-dark">Workflow automation with n8n and Zapier</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-aiwia-green rounded-full mr-3"></div>
-                  <span className="text-aiwia-gray-dark">Seamless integration with existing systems</span>
+                  <span className="text-aiwia-gray-dark">Custom RAG implementation for document processing</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-3 h-3 bg-aiwia-green rounded-full mr-3"></div>
@@ -195,9 +254,9 @@ const AIAdoption = () => {
       <section className="py-16 bg-aiwia-gray-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-aiwia-black mb-4">Our AI Solutions</h2>
+            <h2 className="text-3xl font-bold text-aiwia-black mb-4">Our AI & Automation Solutions</h2>
             <p className="text-xl text-aiwia-gray-dark">
-              Comprehensive AI technologies designed to transform your business operations
+              Comprehensive AI technologies and workflow automation tools designed to transform your business operations
             </p>
           </div>
 
