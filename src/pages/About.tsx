@@ -169,25 +169,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Leadership Section */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-aiwia-black mb-4">
-              Leadership Team
-            </h2>
-            <p className="text-xl text-aiwia-gray-dark">
-              Meet our founding team
-            </p>
-          </div>
-
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center text-aiwia-gray-dark">
-              <p className="text-lg">Leadership team information will be updated soon.</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Company Values */}
       <section className="py-20 bg-aiwia-gray-light">
