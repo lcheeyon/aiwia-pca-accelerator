@@ -181,92 +181,10 @@ const About = () => {
             </p>
           </div>
 
-          <div className="max-w-6xl mx-auto space-y-12">
-            {/* Chee Yong Lee */}
-            <Card className="overflow-hidden">
-              <CardContent className="p-8">
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-                  <div className="lg:col-span-1">
-                    <img 
-                      src="/lovable-uploads/a9c1dcc6-0cad-44bc-b3bd-0082884605ad.png"
-                      alt="Chee Yong Lee"
-                      className="w-full h-64 object-cover object-center rounded-lg shadow-md"
-                    />
-                  </div>
-                  <div className="lg:col-span-2">
-                    <h3 className="text-2xl font-bold text-aiwia-black mb-2">Chee Yong Lee</h3>
-                    <p className="text-aiwia-green font-semibold mb-4">CEO & Co-Founder</p>
-                    
-                    <div className="space-y-4 text-aiwia-gray-dark">
-                      <p>
-                        Chee Yong is a seasoned technology leader with extensive experience in artificial intelligence, 
-                        cybersecurity, and digital transformation. As the CEO and Co-Founder of AIWIA, 
-                        he brings deep expertise in responsible AI adoption and implementation.
-                      </p>
-                      
-                      <p>
-                        With a strong background in data privacy, cybersecurity frameworks, and agile methodologies, 
-                        Chee Yong has successfully guided numerous organizations through their digital transformation journeys. 
-                        His expertise spans across AI technology integration, compliance auditing, and strategic consulting.
-                      </p>
-                      
-                      <p>
-                        Learn more about Chee Yong's professional background and expertise at{' '}
-                        <a 
-                          href="https://cheeyonglee.com" 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="text-aiwia-blue hover:text-aiwia-blue-dark underline"
-                        >
-                          cheeyonglee.com
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Boon Hong Yeo - TEMPORARILY COMMENTED OUT */}
-            {/* 
-            <Card className="overflow-hidden">
-              <CardContent className="p-8">
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-                  <div className="lg:col-span-1">
-                    <img 
-                      src="/lovable-uploads/7460d3c8-007e-4581-92c9-1d34315b72fa.png"
-                      alt="Boon Hong Yeo"
-                      className="w-full h-64 object-cover object-center rounded-lg shadow-md"
-                    />
-                  </div>
-                  <div className="lg:col-span-2">
-                    <h3 className="text-2xl font-bold text-aiwia-black mb-2">Boon Hong Yeo</h3>
-                    <p className="text-aiwia-green font-semibold mb-4">CTO & Co-Founder</p>
-                    
-                    <div className="space-y-4 text-aiwia-gray-dark">
-                      <p>
-                        Boon Hong is a certified Project Management Professional (PMP) with extensive experience 
-                        in technology leadership and strategic project management. As the CTO and Co-Founder of AIWIA, 
-                        he oversees the technical architecture and implementation of AI solutions.
-                      </p>
-                      
-                      <p>
-                        With a proven track record in managing complex technology projects and leading cross-functional teams, 
-                        Boon Hong brings valuable expertise in project governance, risk management, and stakeholder coordination. 
-                        His technical acumen combined with strong project management skills ensures successful delivery of 
-                        AI transformation initiatives.
-                      </p>
-                      
-                      <p>
-                        Boon Hong's leadership in technology implementation and his commitment to best practices in project 
-                        management make him instrumental in driving AIWIA's mission of responsible AI adoption.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-            */}
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center text-aiwia-gray-dark">
+              <p className="text-lg">Leadership team information will be updated soon.</p>
+            </div>
           </div>
         </div>
       </section>
