@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight, Shield, Zap, Award, Users, BookOpen, Target,
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
-// Import images
+// Import updated stock images
 import isoComplianceImg from '@/assets/iso-compliance.jpg';
 import responsibleAiBibleImg from '@/assets/responsible-ai-bible.jpg';
 import udemyAiCourseImg from '@/assets/udemy-ai-course.jpg';
