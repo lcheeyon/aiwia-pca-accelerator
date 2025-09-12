@@ -1,5 +1,6 @@
 
 import Navigation from '@/components/Navigation';
+import RotatingFeatures from '@/components/RotatingFeatures';
 import HeroSection from '@/components/HeroSection';
 import ServicesOverview from '@/components/ServicesOverview';
 import BookPromotion from '@/components/BookPromotion';
@@ -59,6 +60,7 @@ const Index = () => {
         foundingDate="2024"
       />
       <Navigation />
+      <RotatingFeatures />
       <main>
         <HeroSection />
         <ServicesOverview />
