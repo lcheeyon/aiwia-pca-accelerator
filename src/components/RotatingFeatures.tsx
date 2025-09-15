@@ -3,10 +3,10 @@ import { ChevronLeft, ChevronRight, Shield, Zap, Award, Users, BookOpen, Target,
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
-// Import refreshed stock images
-import isoComplianceImage from '@/assets/iso-compliance.jpg';
-import responsibleAiBibleImage from '@/assets/responsible-ai-bible.jpg';
-import udemyAiCourseImage from '@/assets/udemy-ai-course.jpg';
+// Import corrected stock images with proper spellings
+import isoComplianceCorrectedImage from '@/assets/iso-compliance.jpg';
+import responsibleAiBibleCorrectedImage from '@/assets/responsible-ai-bible.jpg';
+import udemyAiCourseCorrectedImage from '@/assets/udemy-ai-course.jpg';
 import aiTransformationImage from '@/assets/ai-transformation.jpg';
 import trainingProgramsImage from '@/assets/training-programs.jpg';
 import enterpriseSolutionsImage from '@/assets/enterprise-solutions.jpg';
@@ -34,7 +34,7 @@ const features: FeatureItem[] = [
     cta: "Get on Amazon",
     ctaLink: "https://www.amazon.com/dp/B0FKGH3TYQ/ref=sr_1_1?crid=3ROCZEFAGS60V&dib=eyJ2IjoiMSJ9.c8NdxUzbjOnMVXhTjOwZc6T_4DpIuET7DgMZIBIDo7vGjHj071QN20LucGBJIEps.7OozkxF69M-lzVCBsl5-T5raqO2WtxBjBKT-rd7ncVA&dib_tag=se&keywords=responsible+ai+bible&qid=1753863678&s=digital-text&sprefix=responsible+ai+bib%2Cdigital-text%2C390&sr=1-1",
     bgColor: "bg-gradient-to-br from-amber-500/20 to-yellow-600/10",
-    image: responsibleAiBibleImage,
+    image: responsibleAiBibleCorrectedImage,
     isHighlighted: true,
     isExternal: true,
     badge: "FEATURED"
@@ -47,7 +47,7 @@ const features: FeatureItem[] = [
     cta: "Enroll Now",
     ctaLink: "https://www.udemy.com/course/ai-governance-workflow-automation/?kw=Ai+governance+wo&src=sac",
     bgColor: "bg-gradient-to-br from-purple-500/20 to-indigo-600/10",
-    image: udemyAiCourseImage,
+    image: udemyAiCourseCorrectedImage,
     isHighlighted: true,
     isExternal: true,
     badge: "HOT"
@@ -60,7 +60,7 @@ const features: FeatureItem[] = [
     cta: "Learn More",
     ctaLink: "/services/iso42001",
     bgColor: "bg-gradient-to-br from-blue-500/15 to-blue-600/10",
-    image: isoComplianceImage
+    image: isoComplianceCorrectedImage
   },
   {
     id: 4,
