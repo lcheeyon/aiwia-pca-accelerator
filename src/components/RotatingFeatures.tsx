@@ -3,13 +3,13 @@ import { ChevronLeft, ChevronRight, Shield, Zap, Award, Users, BookOpen, Target,
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
-// Import updated stock images
-import isoComplianceImg from '@/assets/iso-compliance.jpg';
-import responsibleAiBibleImg from '@/assets/responsible-ai-bible.jpg';
-import udemyAiCourseImg from '@/assets/udemy-ai-course.jpg';
-import aiTransformationImg from '@/assets/ai-transformation.jpg';
-import trainingProgramsImg from '@/assets/training-programs.jpg';
-import enterpriseSolutionsImg from '@/assets/enterprise-solutions.jpg';
+// Import refreshed stock images
+import isoComplianceImage from '@/assets/iso-compliance.jpg';
+import responsibleAiBibleImage from '@/assets/responsible-ai-bible.jpg';
+import udemyAiCourseImage from '@/assets/udemy-ai-course.jpg';
+import aiTransformationImage from '@/assets/ai-transformation.jpg';
+import trainingProgramsImage from '@/assets/training-programs.jpg';
+import enterpriseSolutionsImage from '@/assets/enterprise-solutions.jpg';
 
 interface FeatureItem {
   id: number;
@@ -34,7 +34,7 @@ const features: FeatureItem[] = [
     cta: "Get on Amazon",
     ctaLink: "https://www.amazon.com/dp/B0FKGH3TYQ/ref=sr_1_1?crid=3ROCZEFAGS60V&dib=eyJ2IjoiMSJ9.c8NdxUzbjOnMVXhTjOwZc6T_4DpIuET7DgMZIBIDo7vGjHj071QN20LucGBJIEps.7OozkxF69M-lzVCBsl5-T5raqO2WtxBjBKT-rd7ncVA&dib_tag=se&keywords=responsible+ai+bible&qid=1753863678&s=digital-text&sprefix=responsible+ai+bib%2Cdigital-text%2C390&sr=1-1",
     bgColor: "bg-gradient-to-br from-amber-500/20 to-yellow-600/10",
-    image: responsibleAiBibleImg,
+    image: responsibleAiBibleImage,
     isHighlighted: true,
     isExternal: true,
     badge: "FEATURED"
@@ -47,7 +47,7 @@ const features: FeatureItem[] = [
     cta: "Enroll Now",
     ctaLink: "https://www.udemy.com/course/ai-governance-workflow-automation/?kw=Ai+governance+wo&src=sac",
     bgColor: "bg-gradient-to-br from-purple-500/20 to-indigo-600/10",
-    image: udemyAiCourseImg,
+    image: udemyAiCourseImage,
     isHighlighted: true,
     isExternal: true,
     badge: "HOT"
@@ -60,7 +60,7 @@ const features: FeatureItem[] = [
     cta: "Learn More",
     ctaLink: "/services/iso42001",
     bgColor: "bg-gradient-to-br from-blue-500/15 to-blue-600/10",
-    image: isoComplianceImg
+    image: isoComplianceImage
   },
   {
     id: 4,
@@ -70,7 +70,7 @@ const features: FeatureItem[] = [
     cta: "Get Started",
     ctaLink: "/services/ai-adoption",
     bgColor: "bg-gradient-to-br from-purple-500/15 to-purple-600/10",
-    image: aiTransformationImg
+    image: aiTransformationImage
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ const features: FeatureItem[] = [
     cta: "View Courses",
     ctaLink: "/services",
     bgColor: "bg-gradient-to-br from-green-500/15 to-green-600/10",
-    image: trainingProgramsImg
+    image: trainingProgramsImage
   },
   {
     id: 6,
@@ -90,7 +90,7 @@ const features: FeatureItem[] = [
     cta: "Contact Us",
     ctaLink: "/contact",
     bgColor: "bg-gradient-to-br from-orange-500/15 to-orange-600/10",
-    image: enterpriseSolutionsImg
+    image: enterpriseSolutionsImage
   }
 ];
 
