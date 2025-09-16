@@ -6,13 +6,13 @@ import OptimizedImage from '@/components/OptimizedImage';
 const HeroSection = () => {
   return (
     <section 
-      className="relative bg-gradient-to-br from-aiwia-blue via-aiwia-blue-dark to-aiwia-black min-h-[90vh] flex items-center"
+      className="relative bg-gradient-to-br from-aiwia-blue via-aiwia-blue-dark to-aiwia-black min-h-[60vh] flex items-center"
       role="banner"
       aria-label="AIWIA Hero Section"
     >
       <div className="absolute inset-0 bg-black/20"></div>
       
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-white animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
